@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 17, 17, 17;
+  --background-start-rgb: 17, 17, 17;
+  --background-end-rgb: 17, 17, 17;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start: 241, 241, 241;
-    --background-end: 243,243,243;
+    --foreground-rgb: 17, 17, 17;
+    --background-start: 17, 17, 17;
+    --background-end: 17, 17, 17;
   }
 }
 
@@ -24,4 +24,18 @@ body {
       rgb(var(--background-end))
     ) no-repeat
     rgb(var(--background-start));
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'monument-black';
+  src: url('../../public/fonts/PPMonumentExtended-Black.otf');
+}
+@font-face {
+  font-family: 'montreal-bold';
+  src: url('../../public/fonts/PPNeueMontreal-Bold.otf');
+}
+@font-face {
+  font-family: 'montreal-medium';
+  src: url('../../public/fonts/PPNeueMontreal-Medium.otf');
 }
