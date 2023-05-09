@@ -6,6 +6,7 @@
   --foreground-rgb: 17, 17, 17;
   --background-start-rgb: 17, 17, 17;
   --background-end-rgb: 17, 17, 17;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +26,9 @@ body {
     ) no-repeat
     rgb(var(--background-start));
   height: 100vh;
+  /* background-image: url('../../public/images/mini.svg'); */
+  /* background-repeat: repeat; */
+  overflow: hidden;
 }
 
 @font-face {
