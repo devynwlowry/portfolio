@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        text: 'text 5s ease infinite',
+        text: 'text 35s ease infinite',
       },
       keyframes: {
         text: {
@@ -22,6 +22,9 @@ module.exports = {
         'monumentblack': ['monument-black', 'sans-serif'],
         'montrealbold': ['montreal-bold', 'sans-serif'],
         'montrealmedium': ['montreal-medium', 'sans-serif'],
+        'futurastd': ['futura-italic', 'sans-serif'],
+        'adedisplay': ['ade-display', 'serif'],
+        'darkparadise': ['dark-paradise', 'serif'],
       },
       backgroundImage: {
         'array': "url('../../public/images/mini.svg')",

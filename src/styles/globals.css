@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 17, 17, 17;
-  --background-start-rgb: 17, 17, 17;
-  --background-end-rgb: 17, 17, 17;
+  --foreground-rgb: 17, 24, 39;
+  --background-start-rgb: 17, 24, 39;
+  --background-end-rgb: 17, 24, 39;
 
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 17, 17, 17;
-    --background-start: 17, 17, 17;
-    --background-end: 17, 17, 17;
+    --foreground-rgb: 17, 24, 39;
+    --background-start: 17, 24, 39;
+    --background-end: 17, 24, 39;
   }
 }
 
@@ -26,8 +26,6 @@ body {
     ) no-repeat
     rgb(var(--background-start));
   height: 100vh;
-  /* background-image: url('../../public/images/mini.svg'); */
-  /* background-repeat: repeat; */
   overflow: hidden;
 }
 
@@ -42,4 +40,19 @@ body {
 @font-face {
   font-family: 'montreal-medium';
   src: url('../../public/fonts/PPNeueMontreal-Medium.otf');
+}
+
+@font-face {
+  font-family: 'ade-display';
+  src: url('../../public/fonts/Ade-Display.otf');
+}
+
+@font-face {
+  font-family: 'dark-paradise';
+  src: url('../../public/fonts/DarkParadise-Bold.otf');
+}
+
+@font-face {
+  font-family: 'futura-italic';
+  src: url('../../public/fonts/Futura\ Std\ Heavy\ Oblique.otf');
 }
