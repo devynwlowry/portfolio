@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 :root {
   --foreground-rgb: 17, 24, 39;
   --background-start-rgb: 17, 24, 39;
@@ -25,9 +25,7 @@ body {
       rgb(var(--background-end))
     ) no-repeat
     rgb(var(--background-start));
-  height: 100vh;
-  overflow: hidden;
-}
+} */
 
 @font-face {
   font-family: 'monument-black';

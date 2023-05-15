@@ -1,24 +1,26 @@
 import { Navbar } from '../components/navbar.js'
-import { MyName } from '@/components/name.js'
-import React, { useState, useEffect } from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+import { CardIntro } from '../components/card_intro.js'
+import { CardSkills } from '../components/card_skills.js'
+import { Button } from '../components/button.js'
+import { ButtonWhy } from '@/components/button_why.js'
 
 
 export default function Home() {
+  
   return (
     <>
-    <br/>
-    <div>
-      <Navbar/>
-    </div>
-    <body className='bg-[#F4F4FC] dark:bg-slate-950 bg-array bg-repeat dark:bg-arraywhite'>
-      <div className='grid grid-cols-1 m-4' id="grid container">
-        <div id="col1">
-            <MyName/>
+      <section>
+        <Navbar/>
+      </section>
+      <section className='flex justify-center items-center p-80'>
+        <h1 className='text-[#333] font-montrealbold text-5xl'>Simplicity is the best tool in a Product Designers arsenal.</h1>
+      </section>
+      <section>
+        <div className='flex flex-row justify-center items-center mx-auto px-24 gap-x-10 gap-y-10'>
+          <CardIntro/>
+          <CardSkills/>
         </div>
-      </div>
-    </body>
+      </section>
     </>
   )
 }
