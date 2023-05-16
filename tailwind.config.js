@@ -10,12 +10,17 @@ module.exports = {
     extend: {
       animation: {
         text: 'text 35s ease infinite',
+        dropdown: 'dropdown 1s ease-in-out'
       },
       keyframes: {
         text: {
           '0%': { 'background-size': '200% 200%', 'background-position': 'left center' },
           '100%': { 'background-size': '200% 200%', 'background-position': 'left center' },
           '50%': { 'background-size': '200% 200%', 'background-position': 'right center' },
+        },
+        dropdown: {
+          '0%': { transform: 'translateY(-60%)'},
+          '100%': { transform: 'translateY(0%)' },
         },
       },
       fontFamily: {
@@ -29,6 +34,11 @@ module.exports = {
       backgroundImage: {
         'array': "url('../../public/images/mini.svg')",
         'arraywhite': "url('../../public/images/mini_white.svg')",
+      },
+      colors: {
+        'silver': '#f4f4fc',
+        'almostblack': '#232323',
+        'kindagrey': '#333333'
       },
     },
   },
