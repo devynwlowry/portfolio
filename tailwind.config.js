@@ -27,9 +27,9 @@ module.exports = {
         'monumentblack': ['monument-black', 'sans-serif'],
         'montrealbold': ['montreal-bold', 'sans-serif'],
         'montrealmedium': ['montreal-medium', 'sans-serif'],
-        'futurastd': ['futura-italic', 'sans-serif'],
-        'adedisplay': ['ade-display', 'serif'],
-        'darkparadise': ['dark-paradise', 'serif'],
+        'glacialitalic': ['glacial-italic', 'sans-serif'],
+        'glacialbold': ['glacial-bold', 'sans-serif'],
+        'glacial': ['glacial-regular', 'sans-serif'],
       },
       backgroundImage: {
         'array': "url('../../public/images/mini.svg')",
@@ -38,7 +38,10 @@ module.exports = {
       colors: {
         'silver': '#f4f4fc',
         'almostblack': '#232323',
-        'kindagrey': '#333333'
+        'kindagrey': '#333333',
+        'strawberry': '#E54043',
+        'blueberry': '#5040E5',
+        'orangejuice': '#E56B40',
       },
     },
   },

@@ -1,49 +1,49 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from '../../public/images/Logos/devyn.png'
+import covr from '../../public/images/Logos/covr.svg'
+import complex from '../../public/images/logos/complex1.png'
 
 export const Navbar = () => {
 
     return (
         <>
-        <nav className='bg-almostblack dark:bg-[#0B0B03]'>
-            <div className='flex flex-wrap items-center justify-between p-4'>
-                <div className='flex items-center justify-center mx-auto'>
-                    <Link href='/' className='px-4'> 
-                        <Image 
-                            src={logo}
-                            width={48}
-                            height={48}
-                            alt="devyn lowry logo"
-                        />
-                    </Link>
-                    <Link className='self-center text-3xl font-montrealbold whitespace-nowrap text-[#f4f4fc] uppercase transition ease-in-out duration-500 hover:text-white' href='/'>Devyn Lowry</Link>
-                </div>
-                <div className='flex justify-between mr-auto gap-24'>
-                    <button className='font-montrealmedium text-silver transition ease-in-out duration-500 hover:text-white' id='aboutme'>
-                        About Me
-                    </button>
+        <div className='relative z-10'>
+            <nav className='bg-almostblack dark:bg-[#0B0B03]'>
+                <div className='flex flex-wrap items-center justify-center gap-96 p-4'>
+                    <div className='flex items-center justify-center'>
+                        <Link className='self-center text-4xl font-glacialbold whitespace-nowrap text-silver uppercase transition ease-in-out duration-500 hover:text-orangejuice' href='/'>Devyn Lowry</Link>
+                    </div>
+                    <div className='flex justify-center gap-24'>
+                        <button className='font-glacial text-2xl uppercase text-silver transition ease-in-out duration-500 hover:text-orangejuice' id='aboutme'>
+                            About Me
+                        </button>
 
-                    <button className='font-montrealmedium text-silver transition ease-in-out duration-500 hover:text-white' id='contact'>
-                        Contact
-                    </button>               
-                    <button className='group font-montrealmedium text-silver hover:text-white p-4' id='projects'>
-                        Projects
-                        <div className='absolute -z-10 w-80 p-8 rounded-lg bg-almostblack shadow-2xl text-silver flex flex-col items-start -translate-y-[150%] duration-300 group-hover:translate-y-[19%]'>
-                            <h5 className=''>
-                                Complex
-                            </h5>
-                            <h5>
-                                covr
-                            </h5>
-                            <h5>
-                                themanor
-                            </h5>
+                        <button className='font-glacial text-2xl uppercase text-silver transition ease-in-out duration-500 hover:text-orangejuice' id='contact'>
+                            Contact
+                        </button>               
+                        <div className='group font-glacial text-2xl uppercase text-silver hover:text-orangejuice p-4' id='projects'>
+                            <span className='flex cursor-default gap-1 items-center transition ease-in-out duration-500 hover:text-orangejuice'>Projects<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 sm:invisible md:visible"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg></span>
+                            <div className='absolute -z-10 w-[50vh] p-8 bg-silver text-silver flex gap-4 justify-start items-center -translate-x-[80%] -translate-y-[150%] duration-300 group-hover:translate-y-[19%]'>
+                                <Image 
+                                    src={covr}
+                                    height={72}
+                                    width={72}
+                                    alt='covr'
+                                />
+                                <Image 
+                                    src={complex}
+                                    height={72}
+                                    width={72}
+                                    alt='complex'
+                                    className='rounded-xl'
+                                />
+                            </div>
                         </div>
-                    </button>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
+        
         </>
     )
 }
