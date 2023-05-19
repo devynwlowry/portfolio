@@ -3,6 +3,8 @@ import Image from 'next/image'
 import logo from '../../public/images/Logos/devynn.svg'
 import React from 'react'
 import party from 'party-js'
+import location from '../../public/images/location.svg'
+import email from '../../public/images/message.svg'
 
 export const Footer = () => {
 
@@ -51,22 +53,30 @@ export const Footer = () => {
                     <li className='text-3xl text-silver font-glacialbold uppercase'>
                     <h3>Projects</h3>
                     </li>
-                    <ul className='flex flex-row gap-y-2 p-1'>
+                    <ul className='flex flex-col gap-y-2 p-1'>
                     <li className='text-xl font-montrealmedium lowercase text-silver'>
                         Complex
                     </li>
                     <li className='text-xl font-montrealmedium lowercase text-silver'>
                         covr
                     </li>
-                    <li className='text-xl font-montrealmedium uppercase text-silver'>
+                    <li className='text-xl font-montrealmedium text-silver'>
                         THEMANOR.
                     </li>
                     </ul>
                 </ul>
-                <ul>
+                <ul className='flex flex-col gap-y-3'>
                     <li className='text-3xl text-silver font-glacialbold uppercase'>
                     <h3>Contact</h3>
                     </li>
+                    <ul className='flex flex-col gap-y-2 p-1 text-xl font-montrealmedium text-silver'>
+                        <li className='flex gap-x-1'>
+                            <Image src={location} height={24} width={24} alt='location pin'/> New York, NY
+                        </li>
+                        <li className='flex gap-x-1'>
+                            <Image src={email} height={24} width={24} alt='email icon'/> <a href="mailto:devynwlowry@gmail.com">devynwlowry@gmail.com</a>
+                        </li>
+                    </ul>
                 </ul>
                 </div>
             </div>

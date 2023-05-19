@@ -1,7 +1,9 @@
 import { Navbar } from '../components/navbar.js'
 import { Footer } from '../components/footer.js'
+import { Projects } from '@/components/projects.js'
 import Image from 'next/image.js'
 import Link from 'next/link.js'
+import { ProjectBase } from '@/components/projects/projectbase.js'
 
 
 export default function Home() {
@@ -14,16 +16,7 @@ export default function Home() {
     <div className='flex justify-center items-center p-80 -z-10'>
       <h1 className='text-silver font-glacialbold text-5xl'>hi my name is devyn and i make cool things.</h1>
     </div>
-    <div className='bg-strawberry max-h-[50vh] p-12 flex flex-col justify-center items-start' id='projects'>
-      <Link href='/' className='
-      group
-      text-[20vh] font-glacialbold uppercase text-blueberry 
-      opacity-75
-      transition duration-300
-      hover:opacity-100 hover:ease-in-out'>Projects
-      <span className="block h-2 max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blueberry"/></Link>
-    </div>
-
+    <ProjectBase/>
     <div className='bg-blueberry max-h-[50vh] p-12 flex flex-col justify-center items-start' id='projects'>
       <Link href='/' className='
         group
@@ -38,11 +31,11 @@ export default function Home() {
     <div className='bg-orangejuice max-h-[50vh] p-12 flex flex-col justify-center items-start' id='projects'>
       <Link href='/' className='
           group
-          text-[20vh] font-glacialbold uppercase text-strawberry 
+          text-[20vh] font-glacialbold uppercase text-peach 
           opacity-75
           transition duration-300
           hover:opacity-100 hover:ease-in-out'>Contact
-            <span className="block h-2 max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-strawberry"/>
+            <span className="block h-2 max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-peach"/>
       </Link>
     </div>
     <Footer/>

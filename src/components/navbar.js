@@ -21,9 +21,10 @@ export const Navbar = () => {
                         <button className='font-glacial text-2xl uppercase text-silver transition ease-in-out duration-500 hover:text-orangejuice' id='contact'>
                             Contact
                         </button>               
-                        <div className='group font-glacial text-2xl uppercase text-silver hover:text-orangejuice p-4' id='projects'>
-                            <span className='flex cursor-default gap-1 items-center transition ease-in-out duration-500 hover:text-orangejuice'>Projects<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 sm:invisible md:visible"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg></span>
-                            <div className='absolute -z-10 w-[50vh] p-8 bg-silver text-silver flex gap-4 justify-start items-center -translate-x-[80%] -translate-y-[150%] duration-300 group-hover:translate-y-[19%]'>
+                        <div className='group font-glacial text-2xl uppercase text-silver transition ease-in-out duration-500 hover:text-orangejuice p-4' id='projects'>
+                            Projects
+                            {/* <span className='flex cursor-default gap-1 items-center transition ease-in-out duration-500 hover:text-orangejuice'>Projects<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 sm:invisible md:visible"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg></span> */}
+                            {/* <div className='absolute -z-10 w-[50vh] p-8 bg-silver text-silver flex gap-4 justify-start items-center -translate-x-[80%] -translate-y-[150%] duration-300 group-hover:translate-y-[19%]'>
                                 <Image 
                                     src={covr}
                                     height={72}
@@ -37,7 +38,7 @@ export const Navbar = () => {
                                     alt='complex'
                                     className='rounded-xl'
                                 />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

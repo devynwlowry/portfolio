@@ -30,10 +30,12 @@ module.exports = {
         'glacialitalic': ['glacial-italic', 'sans-serif'],
         'glacialbold': ['glacial-bold', 'sans-serif'],
         'glacial': ['glacial-regular', 'sans-serif'],
+        'silkablack': ['silka-blackitalic', 'sans-serif'],
       },
       backgroundImage: {
         'array': "url('../../public/images/mini.svg')",
         'arraywhite': "url('../../public/images/mini_white.svg')",
+        'covrproduct': "url('../../public/images/covr.png')",
       },
       colors: {
         'silver': '#f4f4fc',
@@ -42,6 +44,8 @@ module.exports = {
         'strawberry': '#E54043',
         'blueberry': '#5040E5',
         'orangejuice': '#E56B40',
+        'peach': '#fbc9ae',
+        'covrblue': '#0080FF'
       },
     },
   },
