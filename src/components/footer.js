@@ -3,8 +3,8 @@ import Image from 'next/image'
 import logo from '../../public/images/Logos/devynn.svg'
 import React from 'react'
 import party from 'party-js'
-import location from '../../public/images/location.svg'
-import email from '../../public/images/message.svg'
+import location from '../../public/images/Icons/location.svg'
+import email from '../../public/images/Icons/message.svg'
 
 export const Footer = () => {
 

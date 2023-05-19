@@ -1,7 +1,7 @@
 import React from "react"
 import Link from "next/link"
 import Image from "next/image"
-import covrproduct from '../../../public/images/covr.png'
+import covrproduct from '../../../public/images/Product Shots/covr.png'
 
 export const Covr = () => {
     return( 
