@@ -1,57 +1,35 @@
+
+
 export const ProcessAccordion = () => {
     return (
         <>
-            <div className='flex items-center justify-between bg-peach max-h-[50vh] p-12' id='process'>
-                <div className='flex items-center justify-start'>
-                    <h1 className='font-glacialbold text-blueberry text-[16vh] uppercase'>process</h1>
-                </div>
-                <div className='flex items-center justify-end w-[36vw]' id='processcollapse'>
-                    <div id='accordion-flush' data-accordion='collapse' data-active-classes="bg-peach text-almostblack opacity-100" data-inactive-classes="text-almostlblack opacity-75" className='font-glacialbold text-almostblack opacity-75 uppercase'>
-                        <h2 id='accordion-flush-heading-1'>
-                            <div type='button' className='flex items-center justify-between' data-accordion-target='#accordion-flush-body-1' aria-expanded='false' aria-controls='accordion-flush-body-1'>
-                                <span className='text-4xl uppercase'>01. ☕️</span>
-                            </div>
-                        </h2>
-                        <div id='accordion-flush-body-1' className='hidden' aria-labelledby='accordion-flush-heading-1'>
-                            <div class='py-4 border-b-2 border-blueberry'>
-                                <p className='text-sm font-montrealmedium normal-case'>But first, coffee.</p>
-                            </div>
-                        </div>
-                        <h2 id='accordion-flush-heading-2'>
-                            <button type='button' className='flex items-center justify-between' data-accordion-target='#accordion-flush-body-2' aria-expanded='false' aria-controls='accordion-flush-body-2'>
-                                <span className='text-4xl uppercase'>02. Research Research Research</span>
-                                <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </h2>
-                        <div id='accordion-flush-body-2' className='hidden' aria-labelledby='accordion-flush-heading-2'>
-                            <div class='py-4 border-b-2 border-blueberry'>
-                                <p className='text-sm font-montrealmedium normal-case'>Every client is different. All of my projects start a with rigorous research phase consisting of market research, meeting with the client and other stakeholders. Not only do I want to understand the big picture of the company/brand but I want to get a sense of who the people behind the brand are and who I'm going to be working with throughout the project.  </p>
-                            </div>
-                        </div>
-                        <h2 id='accordion-flush-heading-3'>
-                            <button type='button' className='flex items-center justify-between' data-accordion-target='#accordion-flush-body-3' aria-expanded='false' aria-controls='accordion-flush-body-3'>
-                                <span className='text-4xl uppercase'>03. LowFi UX/UI</span>
-                                <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </h2>
-                        <div id='accordion-flush-body-3' className='hidden' aria-labelledby='accordion-flush-heading-3'>
-                            <div class='py-4 border-b-2 border-blueberry'>
-                                <p className='text-sm font-montrealmedium normal-case'>After I've collected all of the information I need I begin with low fidelity designs. Starting with wireframe sketches of the common user interactions then digitzing those into interactive flows using Sketch. </p>
-                            </div>
-                        </div>
-                        <h2 id='accordion-flush-heading-4'>
-                            <button type='button' className='flex items-center justify-between' data-accordion-target='#accordion-flush-body-4' aria-expanded='false' aria-controls='accordion-flush-body-4'>
-                                <span className='text-4xl uppercase'>04. HiFi UX/UI</span>
-                                <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </h2>
-                        <div id='accordion-flush-body-4' className='hidden' aria-labelledby='accordion-flush-heading-4'>
-                            <div class='py-4 border-b-2 border-blueberry'>
-                                <p className='text-sm font-montrealmedium normal-case'>After any necessary revisions have been completed from the low fidelity mocks I then move on to high fidelity mockups. This stage takes the longest as it requires the most attention to detail, ensuring colors, typography, margins, hierarchy and everything work together is one of the most important factors in any project.</p>
-                            </div>
-                        </div>
+            <div className='bg-peach max-h-[50vh] p-12 flex flex-col justify-center items-start' id='accordion-collapse' data-accordion='collapse' data-active-classes='bg-peach max-h-[50vh] flex flex-col justify-center items-start' data-inactive-classes='bg-peach max-h-[50vh] flex flex-col justify-center items-start'>
+                <button type='button' className='
+                group
+                text-[20vh] font-glacialbold uppercase text-blueberry
+                pb-8
+                opacity-75
+                transition duration-300
+                hover:opacity-100 hover:ease-in-out' id="accordion-collapse-heading-1" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
+                Process
+                <span className="block h-2 max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blueberry"/></button>
+                <div id='accordion-collapse-body-1' className="flex items-start w-full gap-x-8 justify-between hidden">
+                    <div className="w-1/4">
+                        <h2 className="text-2xl text-kindagrey font-glacialbold pb-2">But first, ☕️</h2>
+                        <p className="font-montrealmedium text-kindagrey">I love coffee, every day I pull a shot of espresso from one of the many local nyc roasters. My current favorite is Founders.</p>
                     </div>
-
+                    <div className="w-1/4">
+                        <h2 className="text-2xl text-kindagrey font-glacialbold pb-2">Then, Research 🔍</h2>
+                        <p className="font-montrealmedium text-kindagrey">I can't do my best work without asking the important questions. My process depends on not only understanding your brand but I also need to understand your users, conducting frequent user research is the cornerstone to a successful software product.</p>
+                    </div>
+                    <div className="w-1/4">
+                        <h2 className="text-2xl text-kindagrey font-glacialbold pb-2">After that, LoFi UX/UI ✍️</h2>
+                        <p className="font-montrealmedium text-kindagrey">I put pen to paper, literally. After I'm done with research I move on to sketches, I sketch out low fidielity wireframes on paper before digitzing them into an interactive wireframe in Sketch.</p>
+                    </div>
+                    <div className="w-1/4">
+                        <h2 className="text-2xl text-kindagrey font-glacialbold pb-2">And finally, HiFi UX/UI 🖥️</h2>
+                        <p className="font-montrealmedium text-kindagrey">After any revisions have been made to the low fidielity mockups, I move on to the high fidielity. Incorporating your brands colors, typography, into an interactive design in Sketch.</p>
+                    </div>
                 </div>
             </div>
         </>
