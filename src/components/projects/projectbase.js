@@ -5,7 +5,7 @@ export const ProjectBase = () => {
     return( 
         <>
             <div className='bg-peach max-h-[50vh] p-12 flex flex-col justify-center items-start' id='projects'>
-                <Link href='/' className='
+                <Link href='/projects' className='
                 group
                 text-[20vh] font-glacialbold uppercase text-blueberry 
                 opacity-75
