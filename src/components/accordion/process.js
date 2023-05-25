@@ -3,7 +3,7 @@
 export const ProcessAccordion = () => {
     return (
         <>
-            <div className='bg-peach max-h-[50vh] p-12 flex flex-col justify-center items-start' id='accordion-collapse' data-accordion='collapse' data-active-classes='bg-peach max-h-[50vh] flex flex-col justify-center items-start' data-inactive-classes='bg-peach max-h-[50vh] flex flex-col justify-center items-start'>
+            <div className='bg-peach max-h-[50vh] p-12 flex flex-col justify-center items-start duration' id='accordion-collapse' data-accordion='collapse' data-active-classes='bg-peach max-h-[50vh] flex flex-col justify-center items-start opacity-100' data-inactive-classes='bg-peach max-h-[50vh] flex flex-col justify-center items-start'>
                 <button type='button' className='
                 group
                 text-[20vh] font-glacialbold uppercase text-blueberry
