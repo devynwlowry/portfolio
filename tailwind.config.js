@@ -38,14 +38,7 @@ module.exports = {
         'covrproduct': "url('../../public/images/covr.png')",
       },
       colors: {
-        'silver': '#f4f4fc',
-        'almostblack': '#232323',
-        'kindagrey': '#333333',
-        'strawberry': '#E54043',
-        'blueberry': '#5040E5',
-        'orangejuice': '#E56B40',
-        'peach': '#fbc9ae',
-        'covrblue': '#0080FF'
+        
       },
     },
   },
