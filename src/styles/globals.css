@@ -27,3 +27,21 @@ body {
     rgb(var(--background-start));
 }
 
+@font-face {
+  font-family: 'montreal-bold';
+  src: url('../../public/fonts/PPNeueMontreal-Bold.otf');
+}
+@font-face {
+  font-family: 'montreal-medium';
+  src: url('../../public/fonts/PPNeueMontreal-Medium.otf');
+}
+
+@font-face {
+  font-family: 'montreal-semiitalic';
+  src: url('../../public/fonts/PPNeueMontreal-SemiBolditalic.otf')
+}
+
+@font-face {
+  font-family: 'machina-inkultra';
+  src: url('../../public/fonts/PPNeueMachina-InktrapUltrabold.otf')
+}

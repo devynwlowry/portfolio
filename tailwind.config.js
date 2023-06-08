@@ -24,18 +24,10 @@ module.exports = {
         },
       },
       fontFamily: {
-        'monumentblack': ['monument-black', 'sans-serif'],
         'montrealbold': ['montreal-bold', 'sans-serif'],
         'montrealmedium': ['montreal-medium', 'sans-serif'],
-        'glacialitalic': ['glacial-italic', 'sans-serif'],
-        'glacialbold': ['glacial-bold', 'sans-serif'],
-        'glacial': ['glacial-regular', 'sans-serif'],
-        'silkablack': ['silka-blackitalic', 'sans-serif'],
-      },
-      backgroundImage: {
-        'array': "url('../../public/images/mini.svg')",
-        'arraywhite': "url('../../public/images/mini_white.svg')",
-        'covrproduct': "url('../../public/images/covr.png')",
+        'montrealsemiitalic': ['montreal-semiitalic', 'sans-serif'],
+        'machinainkultra': ['machina-inkultra', 'sans-serif'],
       },
       colors: {
         
