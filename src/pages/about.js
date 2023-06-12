@@ -21,7 +21,7 @@ export default function about() {
                 </div>
                 <div className='grid justify-start align-start mx-auto pl-2 w-96'>
                 <h1 className='font-machinainkultra uppercase text-light-primary-text dark:text-dark-primary-text iphone6:text-[4vh] ipadpro12:text-[2.5vh]'>bio</h1>
-                    <p className='font-montrealmedium text-light-primary-text dark:text-dark-primary-text whitespace-wrap iphone6:text-[2.5vh] ipadpro12:text-[1.5vh]'> hi my name is devyn lowry. i'm a <span className='font-montrealbold'>product designer</span> from connecticut living in <span className='font-montrealbold'>new york city</span>.</p>
+                    <p className='font-montrealmedium text-light-primary-text dark:text-dark-primary-text whitespace-wrap iphone6:text-[2.5vh] ipadpro12:text-[1.5vh]'> hi my name is devyn lowry. i am a <span className='font-montrealbold'>product designer</span> from connecticut living in <span className='font-montrealbold'>new york city</span>.</p>
                     <Image
                         src={devynadult}
                         width={368}
