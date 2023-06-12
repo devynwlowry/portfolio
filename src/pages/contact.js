@@ -17,21 +17,8 @@ export default function contact() {
                 iphone6:pt-1 ipadpro12:pt-1.5 iphone6:w-3/4 ipadpro12:w-96'>
                     <BackButton/>
                 </div>
-                <div className='grid iphone6:justify-start iphone6:ml-6 ipadpro12:justify-center ipadpro12:w-96 ipadpro12:pl-2 ipadpro12:mx-auto' id='projects'>
-                    <h1 className='font-machinainkultra uppercase text-light-primary-text 
-                    dark:text-dark-primary-text 
-                    iphone6:text-[4vh] ipadpro12:text-[2.5vh] iphone6:pt-7 ipadpro12:pt-auto'>Contact</h1>
-                    <h1 className='font-montrealbold'>CLICK ME.</h1>
-                    <h1 className='font-montrealbold'>CLICK ME.</h1>
-                    <h1 className='font-montrealbold'>CLICK ME.</h1>
-                    <h1 className='font-montrealbold'>CLICK ME.</h1>
+                <div className='flex flex-col justify-center align-center m-auto' id='projects'>
                     <a href="mailto:devynwlowry@gmail.com" className='font-montrealbold underline text-light-primary-text dark:text-dark-primary-text'>CLICK ME.</a>
-                    <h1 className='font-montrealbold'>CLICK ME.</h1>
-                    <h1 className='font-montrealbold'>CLICK ME.</h1>
-                    <h1 className='font-montrealbold'>CLICK ME.</h1>
-                    <h1 className='font-montrealbold'>CLICK ME.</h1>
-                    <h1 className='font-montrealbold'>CLICK ME.</h1>
-
                 </div>
             </section>
             <Problem/>
