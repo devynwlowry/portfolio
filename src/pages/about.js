@@ -29,7 +29,7 @@ export default function about() {
                         className='mt-4 mb-4'
                         alt='picture of me as an adult. embraced my inner godfather for this pic'
                     />
-                    <p className='font-montrealmedium text-light-primary-text dark:text-dark-primary-text whitespace-wrap iphone6:text-[2.5vh] ipadpro12:text-[1.5vh]'>since i was a little kid i’ve wanted to work in design. it was a passion that came from playing video games and seeing interactions happen in the worlds i played in. </p>
+                    <p className='font-montrealmedium text-light-primary-text dark:text-dark-primary-text whitespace-wrap iphone6:text-[2.5vh] ipadpro12:text-[1.5vh]'>since i was a little kid i have wanted to work in design. it was a passion that came from playing video games and seeing interactions happen in the worlds i played in. </p>
                     <Image
                         src={devynyoung}
                         width={368}
@@ -37,7 +37,7 @@ export default function about() {
                         className='mt-4 mb-4'
                         alt='picture of me as a kid'
                     />
-                    <p className='font-montrealmedium text-light-primary-text dark:text-dark-primary-text whitespace-wrap iphone6:text-[2.5vh] ipadpro12:text-[1.5vh]'>since then, i’ve been striving to push pixels <span className='font-montrealsemiitalic'>further</span>; ensuring that every action, design, color palette, font, comes together to create a meaningful experience for users.</p>
+                    <p className='font-montrealmedium text-light-primary-text dark:text-dark-primary-text whitespace-wrap iphone6:text-[2.5vh] ipadpro12:text-[1.5vh]'>since then, i have been striving to push pixels <span className='font-montrealsemiitalic'>further</span>; ensuring that every action, design, color palette, font, comes together to create a meaningful experience for users.</p>
                 </div>
             </section>
             <Problem/>
