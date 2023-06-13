@@ -7,7 +7,7 @@ export const FAQ = () => {
                 font-montrealbold text-light-primary-text underline iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] dark:text-dark-primary-text
                 opacity-75
                 transition duration-300
-                hover:opacity-100 hover:ease-in-out' id="accordion-collapse-heading-1" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
+                hover:opacity-100 hover:ease-in-out' id="accordion-collapse-heading-1" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
                 how much do i charge?
             </button>
             <div id='accordion-collapse-body-1' className="flex items-start justify-between hidden">
