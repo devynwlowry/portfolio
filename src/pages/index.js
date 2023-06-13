@@ -35,6 +35,7 @@ export default function Home() {
       {/* Section 2 */}
       <div id='second-section' className='h-screen 
       bg-light-primary-background
+      overflow-x-hidden
       dark:bg-dark-primary-background'>
         <div className='flex flex-col align-center justify-center h-screen'>
           <AutoScroll/>
