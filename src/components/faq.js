@@ -13,7 +13,7 @@ export const FAQ = () => {
             <div id='accordion-collapse-body-1' className="flex items-start justify-between hidden">
                 <p className="font-montrealmedium text-light-primary-text opacity-100
                 dark:text-dark-primary-text
-                iphone6:text-[2vh] ipadpro12:text-[1.25vh]">i don’t have set prices for projects. i quote based on the individual needs for each client. but, my minimum budget for a project is $1,000.</p>
+                iphone6:text-[2vh] ipadpro12:text-[1.25vh]">i do not have set prices for projects. i quote based on the individual needs for each client. but, my minimum budget for a project is $1,000.</p>
             </div>
             <button type='button' className='
                 group

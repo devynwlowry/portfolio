@@ -16,7 +16,7 @@ export default function Home() {
       <Layout/>
 
       {/* Section 1 */}
-      <div className='flex flex-col align-center justify-center h-screen 
+      <div className='flex flex-col align-center justify-center h-[100vh] 
       bg-light-primary-background
       dark:bg-dark-primary-background' id='first section'>
         <div className='m-auto'>
@@ -33,11 +33,11 @@ export default function Home() {
       </div>
 
       {/* Section 2 */}
-      <div id='second-section' className='h-screen 
+      <div id='second-section' className='h-[100vh] 
       bg-light-primary-background
       overflow-x-hidden
       dark:bg-dark-primary-background'>
-        <div className='flex flex-col align-center justify-center h-screen'>
+        <div className='flex flex-col align-center justify-center h-[100vh'>
           <AutoScroll/>
           <PageList/>
         </div>
