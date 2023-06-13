@@ -18,7 +18,7 @@ export default function complex() {
                 iphone6:pt-1 ipadpro12:pt-1.5 iphone6:w-3/4 ipadpro12:w-96'>
                     <BackButton/>
                 </div>
-                <div className='grid justify-start gap-4 ml-6' id='projects'>
+                <div className='grid justify-start align-start mx-auto pl-2 w-96' id='projects'>
                     <h1 className='font-machinainkultra uppercase text-light-primary-text w-48
                     iphone6:text-[4vh] ipadpro12:text-[2.5vh] iphone6:pt-10 ipadpro12:pt-auto'>Complex Networks</h1>
                     <Image
@@ -51,9 +51,7 @@ export default function complex() {
                             <h5 className="h-24 w-24 p-2 bg-[#000000] font-montrealbold text-white ">#000000</h5>
                         </div>
                         <h3 className="font-montrealbold text-light-primary-text uppercase iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] ">Screens</h3>
-
                     </div>
-
                 </div>
             </section>
         </>
