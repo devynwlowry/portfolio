@@ -1,10 +1,11 @@
-import { BackButton } from "@/components/backbutton";
-import { Breadcrumbs } from "@/components/breadcrumbs";
 import complex_banner from '../../../public/images/complex_banner.svg'
 import complex_font_light from '../../../public/images/complex_font_light.svg'
 import complex_font_dark from '../../../public/images/complex_font_dark.svg'
 
 import Image from "next/image";
+import { BackButton } from "@/components/backbutton";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { ImageSlider } from '@/components/imageslider';
 
 export default function complex() {
     return (
@@ -23,6 +24,7 @@ export default function complex() {
                     iphone6:text-[4vh] ipadpro12:text-[2.5vh] iphone6:pt-10 ipadpro12:pt-auto'>Complex Networks</h1>
                     <Image
                         src={complex_banner}
+                        alt='complex logo on black background'
                     />
                     <div className="flex flex-col gap-2 mr-4">
                         <h3 className="font-montrealbold text-light-primary-text dark:text-dark-primary-text uppercase iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] ">Background</h3>
@@ -34,10 +36,12 @@ export default function complex() {
                         <h3 className="font-montrealbold text-light-primary-text dark:text-dark-primary-text uppercase iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] ">typography</h3>
                         <Image
                             src={complex_font_light}
+                            alt='fonts used for complex app, shows neue haas unica'
                             className="dark:hidden"
                         />
                         <Image
                             src={complex_font_dark}
+                            alt='fonts used for complex app, shows neue haas unica'
                             className="hidden dark:block"
                         />
                         <h3 className="font-montrealbold text-light-primary-text uppercase iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] ">Colors</h3>
@@ -51,6 +55,7 @@ export default function complex() {
                             <h5 className="h-24 w-24 p-2 bg-[#000000] font-montrealbold text-white ">#000000</h5>
                         </div>
                         <h3 className="font-montrealbold text-light-primary-text uppercase iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] ">Screens</h3>
+                        <ImageSlider/>
                     </div>
                 </div>
             </section>
