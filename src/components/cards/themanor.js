@@ -6,7 +6,7 @@ export const Themanor = () => {
     return (
         <>
             <div className='flex flex-col' id='complex'>
-                <Link href='/projects/themanor'>
+                <Link href='' className="cursor-default">
                     <Image 
                         src={themanor_banner}
                         height={200}
