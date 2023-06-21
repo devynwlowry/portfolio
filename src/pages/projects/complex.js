@@ -55,7 +55,7 @@ export default function complex() {
                             <h5 className="h-24 w-24 p-2 bg-[#000000] font-montrealbold text-white ">#000000</h5>
                         </div>
                         <h3 className="font-montrealbold text-light-primary-text uppercase iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] ">Screens</h3>
-                        {/* <ImageSlider/> */}
+                        <ImageSlider/>
                     </div>
                 </div>
             </section>
