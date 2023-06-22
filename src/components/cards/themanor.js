@@ -14,7 +14,9 @@ export const Themanor = () => {
                         alt='covr app'
                     />
                     <h4 className='font-montrealbold text-light-secondary-text dark:text-dark-secondary-text'>COMPANY //</h4>
-                    <h3 className='font-machinainkultra text-light-primary-text uppercase iphone6:text-[4vh] ipadpro12:text-[1.67vh] dark:text-dark-primary-text'>THEMANOR.</h3>
+                    <h3 className='font-machinainkultra text-light-primary-text uppercase
+                    iphone6:text-[3vh] iphoneplus:text-[3.5vh] ipad:text-[2.67vh] ipadpro12:text-[1.67vh]
+                    dark:text-dark-primary-text'>THEMANOR.</h3>
                 </Link>
             </div>
         </>
