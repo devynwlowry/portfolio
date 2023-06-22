@@ -5,7 +5,7 @@ import complex_font_dark from '../../../public/images/complex_font_dark.svg'
 import Image from "next/image";
 import { BackButton } from "@/components/backbutton";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { ImageSlider } from '@/components/MotionSlider/imageslider';
+import { ImageSlider } from '@/components/imageslider';
 
 export default function complex() {
     return (
