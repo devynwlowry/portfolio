@@ -19,40 +19,17 @@ export const ImageSlider = () => {
 
     return (
         <>
-        <motion.div className='overflow-hidden bg-red-500 cursor-grab' ref={carousel} id='container' whileTap={{cursor:"grabbing"}}>
-            <motion.div className='bg-blue-500 w-fit' id='slider' drag="x" dragMomentum={false} dragConstraints={{ right: 0, left:-width }}>
-                <motion.div className="flex gap-8 min-w-[30rem] p-[40px]" id='item'>
-                    <Image
-                        src={complex_banner}
-                        width={368}
-                        height={368}
-                        alt='complex banner'
-                        className="pointer-events-none w-full h-full"
-                    />
-                    <Image
-                        src={complex_font_light}
-                        width={368}
-                        height={368}
-                        alt='complex banner'
-                        className="pointer-events-none w-full h-full"
-                    />
-                    <Image
-                        src={complex_banner}
-                        width={368}
-                        height={368}
-                        alt='complex banner'
-                        className="pointer-events-none w-full h-full"
-                    />
-                    <Image
-                        src={complex_font_light}
-                        width={368}
-                        height={368}
-                        alt='complex banner'
-                        className="pointer-events-none w-full h-full"
-                    />
+            <motion.div ref={carousel} id='carousel'>
+                <motion.div drag='x' id='inner-carousel' dragConstraints={{ right: 0, left: -width }} dragMomentum={false} whileTap={{ cursor: "grabbing" }}>
+                    <motion.div id='item'>
+                        <img src={complex_banner} className="w-full h-full pointer-events-none"></img>
+                        <img src='../../public/images/complex_banner.svg' className="w-full h-full pointer-events-none"></img>
+                        <img src='../../public/images/complex_banner.svg' className="w-full h-full pointer-events-none"></img>
+                        <img src='../../public/images/complex_banner.svg' className="w-full h-full pointer-events-none"></img>
+                        <img src='../../public/images/complex_banner.svg' className="w-full h-full pointer-events-none"></img>
+                    </motion.div>
                 </motion.div>
             </motion.div>
-        </motion.div>
         </>
     )
 

@@ -14,7 +14,7 @@ export const Complex = () => {
                 alt='complex app'
             />
             <h4 className='font-montrealbold text-light-secondary-text dark:text-dark-secondary-text'>CONCEPT //</h4>
-            <h3 className='font-machinainkultra text-light-primary-text uppercase iphone6:text-[4vh] ipadpro12:text-[2.5vh] dark:text-dark-primary-text'>Complex networks</h3>
+            <h3 className='font-machinainkultra text-light-primary-text uppercase iphone6:text-[4vh] ipadpro12:text-[1.67vh] dark:text-dark-primary-text'>Complex networks</h3>
             </Link>
         </div>
         </>
