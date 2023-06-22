@@ -21,13 +21,14 @@ export default function Home() {
       dark:bg-dark-primary-background' id='first section'>
         <div className='m-auto'>
           <h1 className='font-machinainkultra uppercase text-light-primary-text
-          mt-20
-          iphone6:text-[5vh] ipadpro12:text-[6vh]
+          mt-40
+          iphone6:text-[5vh] ipadpro12:text-[6vh] iphone6:mt-60 ipad:mt-40
           dark:text-dark-primary-text'>
             devyn lowry
           </h1>
         </div>
-        <div className='flex justify-center align-center mb-10'>
+        <div className='flex justify-center align-center mb-20
+        iphone6:mb-40 ipad:mb-20'>
           <ScrollButton/>
         </div>
       </div>

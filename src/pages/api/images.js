@@ -2,12 +2,10 @@ import fs from 'fs-extra';
 import path from 'path';
 
 export default async function handler(req, res) {
-    const directory = path.join(process.cwd(), '/public/images/productshots/complexscreens/')
+    const directory = path.join(process.cwd(), '/images/productshots/complexscreens/')
     const imagePaths = await getImagePaths(directory);
 
-    const completePaths = imagePaths.map((relativePath) => `/public/images/productshots/complexscreens/${relativePath}`);
-
-    res.status(200).json({ imagePaths: completePaths });
+    res.status(200).json({ imagePaths});
 }
 
 const getImagePaths = async (directory) => {
