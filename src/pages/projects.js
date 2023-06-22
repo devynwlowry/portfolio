@@ -21,11 +21,11 @@ export default function projects() {
                     <BackButton/>
                 </div>
                 <div className='grid justify-center gap-8
-                iphone6:pt-7 iphone6:ml-6 iphone6:w-80 ipad:m-auto ipadpro12:m-auto ipadpro12:w-96
+                iphone6:pt-7 iphone6:ml-6 iphone6:w-80 iphoneplus:m-auto ipad:m-auto ipadpro12:m-auto ipadpro12:w-96
                 ' id='projects'>
                     <h1 className='font-machinainkultra uppercase text-light-primary-text 
                     dark:text-dark-primary-text
-                    iphone6:text-[4vh] ipadpro12:text-[2.5vh]'>projects</h1>
+                    iphone6:text-[3vh] ipadpro12:text-[2.5vh]'>projects</h1>
                     <Complex/>
                     <Covr/>
                     <Themanor/>

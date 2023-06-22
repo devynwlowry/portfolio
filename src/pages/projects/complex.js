@@ -16,11 +16,11 @@ export default function complex() {
             dark:bg-dark-primary-background
             iphone6:overflow-scroll'>
                 <div className='flex flex-col justify-start align-start ml-6
-                iphone6:pt-1 ipadpro12:pt-1.5 iphone6:w-3/4 ipadpro12:w-96'>
+                iphone6:pt-1 ipadpro12:pt-3 iphone6:w-3/4 ipadpro12:w-96'>
                     <BackButton/>
                 </div>
                 <div className='grid justify-center gap-8
-                iphone6:pt-7 iphone6:w-80 iphone6:ml-6 ipad:m-auto ipadpro12:m-auto ipadpro12:w-96
+                iphone6:pt-7 iphone6:w-80 iphone6:ml-6 iphoneplus:m-auto ipad:m-auto ipadpro12:m-auto ipadpro12:w-96
                 ' id='projects'>
                     <h1 className='font-machinainkultra uppercase text-light-primary-text dark:text-dark-primary-text
                     iphone6:text-[4vh] ipadpro12:text-[2.5vh]'>Complex Networks</h1>
@@ -58,10 +58,10 @@ export default function complex() {
                             <h5 className="h-24 w-24 p-2 bg-[#FFFFFF] font-montrealbold text-black ">#FFFFFF</h5>
                             <h5 className="h-24 w-24 p-2 bg-[#000000] font-montrealbold text-white ">#000000</h5>
                         </div>
-                        <h3 className="font-montrealbold text-light-primary-text uppercase 
+                        {/* <h3 className="font-montrealbold text-light-primary-text uppercase 
                         dark:text-dark-primary-text
-                        iphone6:text-[2.5vh] ipadpro12:text-[1.5vh]">Screens</h3>
-                        <ImageSlider/>
+                        iphone6:text-[2.5vh] ipadpro12:text-[1.5vh]">Screens</h3> */}
+                        {/* <ImageSlider/> */}
                     </div>
                 </div>
             </section>
