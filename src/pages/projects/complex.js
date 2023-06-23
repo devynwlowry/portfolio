@@ -4,11 +4,21 @@ import complex_font_dark from '../../../public/images/complex_font_dark.svg'
 import complex_gif from '../../../public/images/complex_gif.gif'
 import sketch_gif from '../../../public/images/sketch.gif'
 import complex_logos from '../../../public/images/complex_logos.png'
+import complex_screens from '../../../public/images/complex_screens.gif'
+import complex_home from '../../../public/images/productshots/complexscreens/Home/Home.png'
+import complex_home_2 from '../../../public/images/productshots/complexscreens/Home/Home, Sidebar.png'
+import complex_reading from '../../../public/images/productshots/complexscreens/Home/Reading.png'
+import complex_reading_2 from '../../../public/images/productshots/complexscreens/Home/Reading cont.png'
+import complex_all_shows from '../../../public/images/productshots/complexscreens/AllShows/All Shows.png'
+import complex_all_shows_2 from '../../../public/images/productshots/complexscreens/AllShows/All Shows cont.png'
+import complex_show_details from '../../../public/images/productshots/complexscreens/AllShows/Show Details.png'
+import complex_episode from '../../../public/images/productshots/complexscreens/AllShows/Episode View.png'
+import complex_episode_2 from '../../../public/images/productshots/complexscreens/AllShows/Episode View Cont.png'
 
 import Image from "next/image";
 import { BackButton } from "@/components/backbutton";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { ImageSlider } from '@/components/imageslider';
+
 
 export default function complex() {
     return (
@@ -100,6 +110,189 @@ export default function complex() {
                         <div>
                             <Image
                                 src={complex_font_light}
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className='bg-light-primary-background' id='tools-used'>
+                    <h3 className='font-montrealbold text-light-primary-text uppercase
+                    ml-6 mt-6
+                    iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
+                    '>colors</h3>
+                    <p className='font-montrealmedium text-light-primary-text
+                    ml-6 mt-4 mr-6
+                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    ipad:w-2/3
+                    '>the colors for this project were very straightforward, taking the primary colors from the branding of each of the complex brands. also including, black and white for text, red for notifications, and a royal blue for links.</p>
+                    <div className='flex justify-center align-center
+                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
+                    iphone6:p-10 iphone6:gap-8
+                    '>
+                        <div className="flex flex-wrap gap-4">
+                            <h5 className="h-24 w-24 p-2 bg-[#161616] font-montrealbold text-white ">#161616</h5>
+                            <h5 className="h-24 w-24 p-2 bg-[#1E5CF1] font-montrealbold text-white ">#1E5CF1</h5>
+                            <h5 className="h-24 w-24 p-2 bg-[#FFD200] font-montrealbold text-white ">#FFD200</h5>
+                            <h5 className="h-24 w-24 p-2 bg-[#007AFF] font-montrealbold text-white ">#007AFF</h5>
+                            <h5 className="h-24 w-24 p-2 bg-[#FF0000] font-montrealbold text-white ">#FF0000</h5>
+                            <h5 className="h-24 w-24 p-2 bg-[#FFFFFF] font-montrealbold text-black ">#FFFFFF</h5>
+                            <h5 className="h-24 w-24 p-2 bg-[#000000] font-montrealbold text-white ">#000000</h5>
+                        </div>
+                    </div>
+                </div>
+                <div className='bg-dark-primary-background' id='background'>
+                    <h3 className='font-montrealbold text-dark-primary-text uppercase
+                    ml-6 mt-6
+                    iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
+                    '>screens</h3>
+                    <p className='font-montrealmedium text-dark-primary-text
+                    ml-6 mt-4 mr-6
+                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    ipad:w-2/3
+                    '>designing the screens for this app was exciting. complex being one of my favorite brands i designed the app with pixel perfect percision. with inspiration gathered from popular news apps, the complex site, and by asking complex fans what they would want from a mobile app. </p>
+                    <div className='flex place-content-around
+                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
+                    iphone6:p-10 iphone6:gap-8
+                    '>
+                        <div>
+                            <Image
+                                src={complex_screens}
+                                height={600}
+                                width={800}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                    </div>
+                    <h3 className='font-montrealbold text-dark-primary-text uppercase
+                    ml-6 mt-6
+                    iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
+                    '>key screens</h3>
+                    <p className='font-montrealmedium text-dark-primary-text
+                    ml-6 mt-4 mr-6
+                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    ipad:w-2/3
+                    '>it was really important that the content be the most important part of the app. thats why on every ‘channel’ beginning with the home channel you are greeted with featured and popular content. </p>
+                    <div className='flex place-content-around
+                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
+                    iphone6:p-10 iphone6:gap-8
+                    '>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_home}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_home_2}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_reading}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_reading_2}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                    </div>
+                    <h3 className='font-montrealbold text-dark-primary-text uppercase
+                    ml-6 mt-6
+                    iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
+                    '>navigation</h3>
+                    <p className='font-montrealmedium text-dark-primary-text
+                    ml-6 mt-4 mr-6
+                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    ipad:w-2/3
+                    '>for navigation i felt that a sidebar would be the best way for the user to navigate. its tucked away until you need it which means that there is not the clutter that you might sometimes find with a tab bar.</p>
+                    <div className='flex place-content-around
+                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
+                    iphone6:p-10 iphone6:gap-8
+                    '>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_home_2}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                    </div>
+                    <h3 className='font-montrealbold text-dark-primary-text uppercase
+                    ml-6 mt-6
+                    iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
+                    '>article views</h3>
+                    <p className='font-montrealmedium text-dark-primary-text
+                    ml-6 mt-4 mr-6
+                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    ipad:w-2/3
+                    '>article views needed to be clean, easy to read, and intuitive. all of the writers information and header image are at the top and the content is at the bottom. no breaks in the middle for ads just the article. 
+                    <br/>
+                    <br/>
+                    the choice to not have ads in the middle of the content makes it easier for the user to read and absorb the content without having them break their focus with an ad.</p>
+                    <div className='flex place-content-around
+                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
+                    iphone6:p-10 iphone6:gap-8
+                    '>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_reading}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_reading_2}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                    </div>
+                    <h3 className='font-montrealbold text-dark-primary-text uppercase
+                    ml-6 mt-6
+                    iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
+                    '>Video Content</h3>
+                    <p className='font-montrealmedium text-dark-primary-text
+                    ml-6 mt-4 mr-6
+                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    ipad:w-2/3
+                    '>finding your favorite shows from complex needed to be extremely straightforward. the all shows category layed out all of the shows that complex has for the user to choose from.
+                    <br/>
+                    <br/>
+                    once they find a show they want to watch they simply select it and then are brought to a list of episodes to choose from.</p>
+                    <div className='flex place-content-around
+                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
+                    iphone6:p-10 iphone6:gap-8
+                    '>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_all_shows}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_all_shows_2}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_show_details}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_episode}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_episode_2}
+                                alt='various screens of the complex mobile app'
                             />
                         </div>
                     </div>
