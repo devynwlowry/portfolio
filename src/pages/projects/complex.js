@@ -1,6 +1,9 @@
 import complex_banner from '../../../public/images/complex_banner.svg'
 import complex_font_light from '../../../public/images/complex_font_light.svg'
 import complex_font_dark from '../../../public/images/complex_font_dark.svg'
+import complex_gif from '../../../public/images/complex_gif.gif'
+import sketch_gif from '../../../public/images/sketch.gif'
+import complex_logos from '../../../public/images/complex_logos.png'
 
 import Image from "next/image";
 import { BackButton } from "@/components/backbutton";
@@ -19,52 +22,89 @@ export default function complex() {
                 iphone6:pt-1 ipadpro12:pt-3 iphone6:w-3/4 ipadpro12:w-96'>
                     <BackButton/>
                 </div>
-                <div className='grid justify-center gap-8
-                iphone6:pt-7 iphone6:w-80 iphone6:ml-6 iphoneplus:m-auto ipad:m-auto ipadpro12:m-auto ipadpro12:w-96
-                ' id='projects'>
-                    <h1 className='font-machinainkultra uppercase text-light-primary-text dark:text-dark-primary-text
-                    iphone6:text-[4vh] ipadpro12:text-[2.5vh]'>Complex Networks</h1>
-                    <Image
-                        src={complex_banner}
-                        alt='complex logo on black background'
+                <div className='self-center' id='complex-networks'>
+                    <h1 className='text-center font-machinainkultra text-light-primary-text uppercase
+                    iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
+                    dark:text-dark-primary-text
+                    '>complex networks</h1>
+                    <Image 
+                        src={complex_gif}
+                        height={600}
+                        width={800}
+                        alt='gif of several screens from complex networks app. From left to right, shop view, article view, launch screen view, sign in view, home view'
                     />
-                    <div className="flex flex-col gap-2">
-                        <h3 className="font-montrealbold text-light-primary-text dark:text-dark-primary-text uppercase iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] ">Background</h3>
-                        <p className="font-montrealmedium text-light-primary-text dark:text-dark-primary-text iphone6:text[2vh]">during my tenure at complex networks i took up the task of dusting off an initiative that the design team had shelved. </p>
-                        <h3 className="font-montrealbold text-light-primary-text dark:text-dark-primary-text uppercase iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] ">purpose</h3>
-                        <p className="font-montrealmedium text-light-primary-text dark:text-dark-primary-text">to design a mobile app (iOS) that would bring all of the complex networks brands and associated content together.</p>
-                        <h3 className="font-montrealbold text-light-primary-text dark:text-dark-primary-text uppercase iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] ">tools used</h3>
-                        <p className="font-montrealmedium text-light-primary-text dark:text-dark-primary-text iphone6:text[2vh]">sketch, adobe creative cloud</p>
-                        <h3 className="font-montrealbold text-light-primary-text dark:text-dark-primary-text uppercase iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] ">typography</h3>
-                        <Image
-                            src={complex_font_light}
-                            alt='fonts used for complex app, shows neue haas unica'
-                            className="dark:hidden"
-                        />
-                        <Image
-                            src={complex_font_dark}
-                            alt='fonts used for complex app, shows neue haas unica'
-                            className="hidden dark:block"
-                        />
-                        <h3 className="font-montrealbold text-light-primary-text uppercase 
-                        dark:text-dark-primary-text
-                        iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] ">Colors</h3>
-                        <div className="grid grid-rows-2 grid-cols-3 gap-y-8">
-                            <h5 className="h-24 w-24 p-2 bg-[#161616] font-montrealbold text-white ">#161616</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#1E5CF1] font-montrealbold text-white ">#1E5CF1</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#FFD200] font-montrealbold text-white ">#FFD200</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#007AFF] font-montrealbold text-white ">#007AFF</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#FF0000] font-montrealbold text-white ">#FF0000</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#FFFFFF] font-montrealbold text-black ">#FFFFFF</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#000000] font-montrealbold text-white ">#000000</h5>
+                </div>
+                <div className='bg-dark-primary-background' id='background'>
+                    <h3 className='font-montrealbold text-dark-primary-text uppercase
+                    ml-6 mt-6
+                    iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
+                    '>background</h3>
+                    <p className='font-montrealmedium text-dark-primary-text
+                    ml-6 mt-4 mr-6
+                    ipad:w-2/3
+                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    '>during my tenure at complex networks i took up the task of dusting off an initiative that the design team had shelved. the purpose of the project was to bring the complex family of brands and their content under one app for all users to enjoy.</p>
+                    <div className='flex justify-center
+                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
+                    iphone6:p-10 iphone6:gap-8
+                    '>
+                        <div>
+                            <Image
+                                src={complex_logos}
+                            />
                         </div>
-                        {/* <h3 className="font-montrealbold text-light-primary-text uppercase 
-                        dark:text-dark-primary-text
-                        iphone6:text-[2.5vh] ipadpro12:text-[1.5vh]">Screens</h3>
-                        <ImageSlider/> */}
                     </div>
                 </div>
-            </section>
+                <div className='bg-light-primary-background' id='tools-used'>
+                    <h3 className='font-montrealbold text-light-primary-text uppercase
+                    ml-6 mt-6
+                    iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
+                    '>tools used</h3>
+                    <p className='font-montrealmedium text-light-primary-text
+                    ml-6 mt-4 mr-6
+                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    '>along with all of my other projects, i designed this app in <span className='font-montrealbold'>sketch.</span></p>
+                    <div className='flex justify-center align-center
+                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
+                    iphone6:p-10 iphone6:gap-8
+                    '>
+                        <div>
+                            <Image
+                                src={sketch_gif}
+                                height={600}
+                                width={800}
+                                alt='sketch app icon'
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className='bg-dark-primary-background' id='background'>
+                    <h3 className='font-montrealbold text-dark-primary-text uppercase
+                    ml-6 mt-6
+                    iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
+                    '>typography</h3>
+                    <p className='font-montrealmedium text-dark-primary-text
+                    ml-6 mt-4 mr-6
+                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    ipad:w-2/3
+                    '>Neue Haas Unica is the backbone of this project being used for the entire project, luckily, it is also the font used for the complex logo which helped create a unified look and feel across the entire interface.</p>
+                    <div className='flex place-content-around
+                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
+                    iphone6:p-10 iphone6:gap-8
+                    '>
+                        <div>
+                            <Image
+                                src={complex_font_dark}
+                            />
+                        </div>
+                        <div>
+                            <Image
+                                src={complex_font_light}
+                            />
+                        </div>
+                    </div>
+                </div>
+        </section>
         </>
     )
 }

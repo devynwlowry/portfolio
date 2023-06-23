@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+
 export const ImageSlider = () => {
 
     const [width, setWidth] = useState(0);
@@ -11,7 +12,6 @@ export const ImageSlider = () => {
     useEffect(() => {
         setWidth(carousel.current.scrollWdith - carousel.current.offsetWidth);
     }, []);
-
 
     return (
         <>
