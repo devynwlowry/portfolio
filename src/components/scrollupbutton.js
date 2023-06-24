@@ -16,7 +16,7 @@ export const ScrollUpButton = () => {
 
     useEffect(() => {
       return scrollYProgress.on('change', (latestValue) => {
-        if (latestValue > 0.25) {
+        if (latestValue > 0.5) {
           controls.start('show');
         } else {
           controls.set('hide');
@@ -31,7 +31,7 @@ export const ScrollUpButton = () => {
               const nextSection = document.getElementById('top');
               nextSection.scrollIntoView({ behavior: 'smooth' });
             }}
-            initial='show'
+            initial='hide'
             animate={controls}
             variants={ScrollToTopContainerVariants}
           >
