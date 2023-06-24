@@ -24,7 +24,7 @@ export default function complex() {
     return (
         <>
         <Breadcrumbs/>
-        <section className='h-[100vh] bg-light-primary-background
+        <div className='h-[100vh] bg-light-primary-background
             flex flex-col
             dark:bg-dark-primary-background
             iphone6:overflow-scroll'>
@@ -299,7 +299,7 @@ export default function complex() {
                     </div>
                 </div>
             <ScrollUpButton/>   
-        </section>
+        </div>
         
         </>
     )
