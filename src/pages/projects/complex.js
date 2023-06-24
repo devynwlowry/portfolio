@@ -1,4 +1,3 @@
-import complex_banner from '../../../public/images/complex_banner.svg'
 import complex_font_light from '../../../public/images/complex_font_light.svg'
 import complex_font_dark from '../../../public/images/complex_font_dark.svg'
 import complex_gif from '../../../public/images/complex_gif.gif'
@@ -18,6 +17,7 @@ import complex_episode_2 from '../../../public/images/productshots/complexscreen
 import Image from "next/image";
 import { BackButton } from "@/components/backbutton";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { ScrollUpButton } from '@/components/scrollupbutton'
 
 
 export default function complex() {
@@ -28,7 +28,7 @@ export default function complex() {
             flex flex-col
             dark:bg-dark-primary-background
             iphone6:overflow-scroll'>
-                <div className='flex flex-col justify-start align-start ml-6
+                <div id='top' className='flex flex-col justify-start align-start ml-6
                 iphone6:pt-1 ipadpro12:pt-3 iphone6:w-3/4 ipadpro12:w-96'>
                     <BackButton/>
                 </div>
@@ -223,7 +223,7 @@ export default function complex() {
                     <h3 className='font-montrealbold text-dark-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
-                    '>article views</h3>
+                    '>Editorial Content</h3>
                     <p className='font-montrealmedium text-dark-primary-text
                     ml-6 mt-4 mr-6
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
@@ -231,7 +231,7 @@ export default function complex() {
                     '>article views needed to be clean, easy to read, and intuitive. all of the writers information and header image are at the top and the content is at the bottom. no breaks in the middle for ads just the article. 
                     <br/>
                     <br/>
-                    the choice to not have ads in the middle of the content makes it easier for the user to read and absorb the content without having them break their focus with an ad.</p>
+                    the choice to not have ads in the middle of the content makes it easier for the user to read and absorb the content without forcing them to break their focus.</p>
                     <div className='flex place-content-around
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
@@ -297,7 +297,9 @@ export default function complex() {
                         </div>
                     </div>
                 </div>
+            <ScrollUpButton/>   
         </section>
+        
         </>
     )
 }
