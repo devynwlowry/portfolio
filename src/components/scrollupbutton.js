@@ -50,7 +50,8 @@ export const ScrollUpButton = () => {
             alt='arrow pointing up in a circle'
             className='dark:hidden rotate-180'
           />
-          <h5 className="self-center mr-2 font-montrealbold text-light-primary-text dark:text-dark-primary-text uppercase">scroll to top</h5>
+          <h5 className="self-center mr-2 font-montrealbold text-light-primary-text dark:text-dark-primary-text uppercase 
+          iphone6:hidden iphoneplus:hidden iphonexrmax:hidden ipad:block">scroll to top</h5>
           </motion.button>
         </>
     );
