@@ -2,7 +2,7 @@ import Image from "next/image";
 import arrowlight from '../../public/images/Icons/arrowlight.svg'
 import arrowdark from '../../public/images/Icons/arrowdark.svg'
 
-export const ScrollButton = () => {
+const ScrollButton = () => {
     return (
         <>
         <button
@@ -28,3 +28,5 @@ export const ScrollButton = () => {
         </>
     );
 }
+
+export default ScrollButton;
