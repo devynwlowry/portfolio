@@ -180,7 +180,7 @@ export default function complex() {
                     ml-6 mt-4 mr-6
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
                     ipad:w-2/3
-                    '>it was really important that the content be the most important part of the app. thats why on every ‘channel’ beginning with the home channel you are greeted with featured and popular content. </p>
+                    '>it was really important that the content be the most important part of the app. thats why on every channel beginning with the home channel you are greeted with featured and popular content. </p>
                     <div className='flex place-content-around
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
@@ -362,7 +362,7 @@ export default function complex() {
                     channels is a familiar concept to many users who are used to having the content that they care about easily accessible. every channel has its own set of channels (similar to stories) for each of their shows to share updates or exciting things that are coming soon.
                     <br/>
                     <br/>
-                    in order to make the app feel more customizable, a user would be able to select a channel to be the default 'home' view so the content they care about is easy to access. every time.</p>
+                    in order to make the app feel more customizable, a user would be able to select a channel to be the default home view so the content they care about is easy to access. every time.</p>
                     <div className='flex place-content-around
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
