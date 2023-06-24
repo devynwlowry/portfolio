@@ -42,6 +42,7 @@ export default function complex() {
                         height={600}
                         width={800}
                         alt='gif of several screens from complex networks app. From left to right, shop view, article view, launch screen view, sign in view, home view'
+                        className='p-4'
                     />
                 </div>
                 <div className='bg-dark-primary-background' id='background'>
