@@ -13,8 +13,7 @@ export default function about() {
             <Breadcrumbs />
             <section className='h-screen bg-light-primary-background
             flex flex-col
-            dark:bg-dark-primary-background
-            iphone6:overflow-scroll'>
+            dark:bg-dark-primary-background'>
                 <div className='flex flex-col justify-start align-start ml-6 
                 iphone6:pt-1 iphone6:pb-4 ipadpro12:pt-1.5 ipadpro12:pb-16 iphone6:w-3/4 ipadpro12:w-96'>
                     <BackButton/>

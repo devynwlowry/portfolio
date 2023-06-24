@@ -14,8 +14,7 @@ export default function projects() {
            <Breadcrumbs />
             <section className='h-[100vh] bg-light-primary-background
             flex flex-col
-            dark:bg-dark-primary-background
-            iphone6:overflow-scroll'>
+            dark:bg-dark-primary-background'>
                 <div className='flex flex-col justify-start align-start ml-6
                 iphone6:pt-1 ipadpro12:pt-3 iphone6:w-3/4 ipadpro12:w-96'>
                     <BackButton/>
