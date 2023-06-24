@@ -15,7 +15,7 @@ export const ImageSlider = () => {
 
     return (
         <>
-            <motion.div className='cursor-grab overflow-hidden' ref={carousel} id='carousel'>
+            {/* <motion.div className='cursor-grab overflow-hidden' ref={carousel} id='carousel'>
                 <motion.div drag='x' id='inner-carousel' dragConstraints={{ right: 0, left: -width }} dragMomentum={false} whileTap={{ cursor: "grabbing" }}>
                     <motion.div className='flex bg-blue-500 w-full p-[40px]' id='item'>
                         <img src='/images/complex_banner.png/' className="w-full h-full pointer-events-none"></img>
@@ -25,7 +25,7 @@ export const ImageSlider = () => {
                         <img src='/images/complex_banner.svg' className="w-full h-full pointer-events-none"></img>
                     </motion.div>
                 </motion.div>
-            </motion.div>
+            </motion.div> */}
         </>
     )
 
