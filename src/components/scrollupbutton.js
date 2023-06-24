@@ -27,7 +27,10 @@ export const ScrollUpButton = () => {
   
     return (
         <>
-        <motion.button className="flex drop-shadow-2xl fixed gap-2 p-1 bottom-10 right-10 bg-light-accent-color dark:bg-dark-accent-color rounded-full"
+        <motion.button className="flex drop-shadow-2xl bg-light-accent-color rounded-full
+        fixed gap-2 p-1 bottom-10 right-10 
+        iphone6:bottom-5 iphone6:right-5 iphoneplus:bottom-5 iphoneplus:right-5 iphonexrmax:bottom-5 iphonexrmax:right-5 ipad:bottom-10 ipad:right-10
+        dark:bg-dark-accent-color"
             onClick={() => {
               const nextSection = document.getElementById('top');
               nextSection.scrollIntoView({ behavior: 'smooth' });
