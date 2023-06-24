@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body{
-  overflow-y:scroll;
-  height: screen;
-}
-
 @font-face {
   font-family: 'montreal-bold';
   src: url('../../public/fonts/PPNeueMontreal-Bold.otf');

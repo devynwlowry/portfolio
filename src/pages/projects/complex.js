@@ -24,7 +24,7 @@ export default function complex() {
     return (
         <>
         <Breadcrumbs/>
-        <section className='h-screen bg-light-primary-background
+        <section className='h-[100vh] bg-light-primary-background
             flex flex-col
             dark:bg-dark-primary-background
             iphone6:overflow-scroll'>
