@@ -13,6 +13,13 @@ import complex_all_shows_2 from '../../../public/images/productshots/complexscre
 import complex_show_details from '../../../public/images/productshots/complexscreens/AllShows/Show Details.png'
 import complex_episode from '../../../public/images/productshots/complexscreens/AllShows/Episode View.png'
 import complex_episode_2 from '../../../public/images/productshots/complexscreens/AllShows/Episode View Cont.png'
+import complex_shop from '../../../public/images/productshots/complexscreens/shop/shop.png'
+import complex_shop_2 from '../../../public/images/productshots/complexscreens/shop/SHOPCONT.png'
+import complex_item from '../../../public/images/productshots/complexscreens/shop/ITEM.png'
+import complex_item_2 from '../../../public/images/productshots/complexscreens/shop/ITEMCont.png'
+import complex_item_3 from '../../../public/images/productshots/complexscreens/shop/Itemincart.png'
+import complex_fwf from '../../../public/images/productshots/complexscreens/FirstWeFeast/First We Feast.png'
+import complex_fwf_2 from '../../../public/images/productshots/complexscreens/FirstWeFeast/First We Feast Cont.png'
 
 import Image from "next/image";
 import { BackButton } from "@/components/backbutton";
@@ -293,6 +300,80 @@ export default function complex() {
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_episode_2}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                    </div>
+                    <h3 className='font-montrealbold text-dark-primary-text uppercase
+                    ml-6 mt-6
+                    iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
+                    '>shop</h3>
+                    <p className='font-montrealmedium text-dark-primary-text
+                    ml-6 mt-4 mr-6
+                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    ipad:w-2/3
+                    '>complex has amazing merch either designed in house or in collaboration with well known artists, the shop view was designed to put those pieces right in front of the users separated by brand. </p>
+                    <div className='flex place-content-around
+                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
+                    iphone6:p-10 iphone6:gap-8
+                    '>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_shop}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_shop_2}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_item}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_item_2}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_item_3}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                    </div>
+                    <h3 className='font-montrealbold text-dark-primary-text uppercase
+                    ml-6 mt-6
+                    iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
+                    '>Channels</h3>
+                    <p className='font-montrealmedium text-dark-primary-text
+                    ml-6 mt-4 mr-6
+                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    ipad:w-2/3
+                    '>channels was a concept i came up with to organize the different brands into their own sections on the app. each brand getting its own channel; i did this because the idea of 
+                    channels is a familiar concept to many users who are used to having the content that they care about easily accessible. 
+                    <br/>
+                    <br/>
+                    in order to make the app feel more customizable, a user would be able to select a channel to be the default 'home' view so the content they care about is easy to access. every time.</p>
+                    <div className='flex place-content-around
+                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
+                    iphone6:p-10 iphone6:gap-8
+                    '>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_fwf}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_fwf_2}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
