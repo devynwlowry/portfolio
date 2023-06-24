@@ -357,7 +357,7 @@ export default function complex() {
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
                     ipad:w-2/3
                     '>channels was a concept i came up with to organize the different brands into their own sections on the app. each brand getting its own channel; i did this because the idea of 
-                    channels is a familiar concept to many users who are used to having the content that they care about easily accessible. 
+                    channels is a familiar concept to many users who are used to having the content that they care about easily accessible. every channel has its own set of channels (similar to stories) for each of their shows to share updates or exciting things that are coming soon.
                     <br/>
                     <br/>
                     in order to make the app feel more customizable, a user would be able to select a channel to be the default 'home' view so the content they care about is easy to access. every time.</p>
