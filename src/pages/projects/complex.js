@@ -68,6 +68,7 @@ export default function complex() {
                         <div>
                             <Image
                                 src={complex_logos}
+                                alt='row of all brand logos that complex owns, from left to right: sole collector, first we feast, pigeons and planes, and complex con'
                             />
                         </div>
                     </div>
@@ -112,11 +113,13 @@ export default function complex() {
                         <div>
                             <Image
                                 src={complex_font_dark}
+                                alt='font used in complex app, light background'
                             />
                         </div>
                         <div>
                             <Image
                                 src={complex_font_light}
+                                alt='font used in complex app, light background'
                             />
                         </div>
                     </div>
