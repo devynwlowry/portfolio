@@ -5,8 +5,8 @@ import { Breadcrumbs } from '@/components/breadcrumbs'
 import { Problem } from '@/components/problem'
 import Link from 'next/link.js'
 import { Complex } from '@/components/cards/complex'
-import { Covr } from '@/components/cards/covr'
-import { Themanor } from '@/components/cards/themanor'
+// import { Covr } from '@/components/cards/covr'
+// import { Themanor } from '@/components/cards/themanor'
 
 export default function projects() {
     return (
