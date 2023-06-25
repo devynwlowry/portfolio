@@ -23,6 +23,7 @@ import complex_fwf_2 from '../../../public/images/productshots/complexscreens/Fi
 
 import { BackButton } from "@/components/backbutton";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import Image from 'next/image'
 
 export default function covr() {
     return (
