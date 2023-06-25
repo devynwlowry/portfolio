@@ -26,8 +26,8 @@ export default function projects() {
                     dark:text-dark-primary-text
                     iphone6:text-[3vh] ipadpro12:text-[2.5vh]'>projects</h1>
                     <Complex/>
-                    <Covr/>
-                    <Themanor/>
+                    {/* <Covr/>
+                    <Themanor/> */}
                 </div>
             </section>
             <Problem/>
