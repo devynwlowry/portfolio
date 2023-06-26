@@ -12,15 +12,15 @@ export default function projects() {
     return (
         <>
            <Breadcrumbs />
-            <section className='h-[100vh] bg-light-primary-background
+            <section className='h-screen bg-light-primary-background
             flex flex-col
             dark:bg-dark-primary-background'>
                 <div className='flex flex-col justify-start align-start ml-6
                 iphone6:pt-1 ipadpro12:pt-3 iphone6:w-3/4 ipadpro12:w-96'>
                     <BackButton/>
                 </div>
-                <div className='grid justify-center gap-8
-                iphone6:pt-7 iphone6:ml-6 iphone6:w-80 iphoneplus:m-auto ipad:m-auto ipadpro12:m-auto ipadpro12:w-96
+                <div className='grid justify-center align-center gap-4
+                iphone6:pb-20 iphone6:ml-6 iphone6:w-80 iphoneplus:m-auto ipad:m-auto ipadpro12:m-auto ipadpro12:w-96 ipad:pb-48
                 ' id='projects'>
                     <h1 className='font-machinainkultra uppercase text-light-primary-text 
                     dark:text-dark-primary-text
