@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+body, html{
+  background-color: #F4F4F4;
+}
+
+@media (prefers-color-scheme: dark) {
+  body, html {
+    background-color: #0D0D0D;
+  }
+}
+
 @font-face {
   font-family: 'montreal-bold';
   src: url('../../public/fonts/PPNeueMontreal-Bold.otf');

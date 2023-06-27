@@ -49,6 +49,15 @@ module.exports = {
         'dark-secondary-text': '#BDBDBD',
         'dark-accent-color': '#828282',
         'covr-primary-blue': '#0080FF',
+        'covr-primary-green': '#00FF80',
+        'covr-light-primary-bg': '#F5F5F5',
+        'covr-light-primary-text': '#333333',
+        'covr-light-accent-color': '#0000FF',
+        'covr-light-secondary-text': '#B7B7B7',
+        'covr-dark-primary-bg': '#333333',
+        'covr-dark-primary-text': '#F5F5F5',
+        'covr-dark-accent-color': '#1E90FF',
+        'covr-dark-secondary-text': '#B7B7B7'
       },
       screens: {
         'iphone6': '375px',             // iPhone 6/7/8/SE (2nd generation)

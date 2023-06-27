@@ -3,6 +3,8 @@ import complex_font_dark from '../../../public/images/complex_font_dark.svg'
 import covr_gif from '../../../public/images/covr_gif.gif'
 import sketch_gif from '../../../public/images/sketch.gif'
 import covr_logo from '../../../public/images/Logos/covr.svg'
+import covr_font_dark from '../../../public/images/covr_font_dark.svg'
+import covr_font_light from '../../../public/images/covr_font_light.svg'
 import complex_screens from '../../../public/images/complex_screens.gif'
 import complex_home from '../../../public/images/productshots/complexscreens/Home/Home.png'
 import complex_home_2 from '../../../public/images/productshots/complexscreens/Home/Home, Sidebar.png'
@@ -66,7 +68,7 @@ export default function covr() {
                     </p>
                     <div className='flex justify-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
-                    iphone6:p-10 iphone6:gap-8
+                    iphone6:p-6 ipad:p-10 iphone6:gap-8
                     '>
                         <div>
                             <Image
@@ -101,7 +103,7 @@ export default function covr() {
                         </div>
                     </div>
                 </div>
-                {/* <div className='bg-dark-primary-background' id='background'>
+                <div className='bg-covr-primary-blue' id='background'>
                     <h3 className='font-montrealbold text-dark-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
@@ -110,26 +112,26 @@ export default function covr() {
                     ml-6 mt-4 mr-6
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
                     ipad:w-2/3
-                    '>Neue Haas Unica is the backbone of this project being used for the entire project, luckily, it is also the font used for the complex logo which helped create a unified look and feel across the entire interface.</p>
+                    '>i try to limit font usage to one while utilizing different weights across the interface. covr uses <span className='font-montrealbold'>PP Neue Montreal</span> in the Medium and <span className='font-montrealbold'>Bold</span> font weights.</p>
                     <div className='flex place-content-around
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
                         <div>
                             <Image
-                                src={complex_font_dark}
+                                src={covr_font_light}
                                 alt='font used in complex app, light background'
                             />
                         </div>
                         <div>
                             <Image
-                                src={complex_font_light}
+                                src={covr_font_dark}
                                 alt='font used in complex app, light background'
                             />
                         </div>
                     </div>
                 </div>
-                <div className='bg-light-primary-background' id='tools-used'>
+                 <div className='bg-light-primary-background' id='tools-used'>
                     <h3 className='font-montrealbold text-light-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
@@ -138,23 +140,66 @@ export default function covr() {
                     ml-6 mt-4 mr-6
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
                     ipad:w-2/3
-                    '>the colors for this project were very straightforward, taking the primary colors from the branding of each of the complex brands. also including, black and white for text, red for notifications, and a royal blue for links.</p>
+                    '>the goal for this app is to make the job application process as straightforward as process, so the colors had to be just as straightforward. i stuck with industry colors, only tweaking them slightly.</p>
                     <div className='flex justify-center align-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
+                        <h2 className='font-montrealbold text-xl'>Light Mode</h2>
                         <div className="flex flex-wrap gap-4">
-                            <h5 className="h-24 w-24 p-2 bg-[#161616] font-montrealbold text-white ">#161616</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#1E5CF1] font-montrealbold text-white ">#1E5CF1</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#FFD200] font-montrealbold text-white ">#FFD200</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#007AFF] font-montrealbold text-white ">#007AFF</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#FF0000] font-montrealbold text-white ">#FF0000</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#FFFFFF] font-montrealbold text-black ">#FFFFFF</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#000000] font-montrealbold text-white ">#000000</h5>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-covr-light-primary-bg border-4 border-light-accent-color font-montrealbold text-light-primary-text ">#F5F5F5</h5>
+                                <h5 className='font-montrealmedium w-24'>primary-background</h5>
+                            </div>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-covr-light-primary-text font-montrealbold text-white ">#333333</h5>
+                                <h5 className='font-montrealmedium w-24'>primary-text</h5>
+                            </div>
+
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-covr-light-accent-color font-montrealbold text-white ">#0000FF</h5>
+                                <h5 className='font-montrealmedium w-24'>accent-color</h5>
+                            </div>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-covr-light-secondary-text font-montrealbold text-light-primary-text ">#B7B7B7</h5>
+                                <h5 className='font-montrealmedium w-24'>secondary-text</h5>
+                            </div>    
+                        </div>
+                        <h2 className='font-montrealbold text-xl'>Dark Mode</h2>
+                        <div className="flex flex-wrap gap-4">
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-covr-dark-primary-bg font-montrealbold text-dark-primary-text ">#333333</h5>
+                                <h5 className='font-montrealmedium w-24'>primary-background</h5>
+                            </div>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-covr-dark-primary-text border-4 border-light-accent-color font-montrealbold text-light-primary-text ">#F5F5F5</h5>
+                                <h5 className='font-montrealmedium w-24'>primary-text</h5>
+                            </div>
+
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-covr-dark-accent-color font-montrealbold text-white ">#1E90FF</h5>
+                                <h5 className='font-montrealmedium w-24'>accent-color</h5>
+                            </div>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-covr-dark-secondary-text font-montrealbold text-light-primary-text ">#B7B7B7</h5>
+                                <h5 className='font-montrealmedium w-24'>secondary-text</h5>
+                            </div>
+                        </div>
+                        <h2 className='font-montrealbold text-xl'>Brand Colors</h2>
+                        <div className="flex flex-col gap-4">
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-covr-primary-blue font-montrealbold text-dark-primary-text ">#0080FF</h5>
+                                <h5 className='font-montrealmedium w-24'>covr-blue</h5>
+                            </div>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-covr-primary-green font-montrealbold text-light-primary-text ">#00FF80</h5>
+                                <h5 className='font-montrealmedium w-24'>covr-green</h5>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
-                <div className='bg-dark-primary-background' id='background'>
+                {/* <div className='bg-dark-primary-background' id='background'>
                     <h3 className='font-montrealbold text-dark-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
