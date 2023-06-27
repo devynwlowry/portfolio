@@ -48,6 +48,7 @@ module.exports = {
         'dark-primary-text': '#E6E6E6',
         'dark-secondary-text': '#BDBDBD',
         'dark-accent-color': '#828282',
+        'covr-primary-blue': '#0080FF',
       },
       screens: {
         'iphone6': '375px',             // iPhone 6/7/8/SE (2nd generation)

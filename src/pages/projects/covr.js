@@ -1,8 +1,8 @@
 import complex_font_light from '../../../public/images/complex_font_light.svg'
 import complex_font_dark from '../../../public/images/complex_font_dark.svg'
-import complex_gif from '../../../public/images/complex_gif.gif'
+import covr_gif from '../../../public/images/covr_gif.gif'
 import sketch_gif from '../../../public/images/sketch.gif'
-import complex_logos from '../../../public/images/complex_logos.png'
+import covr_logo from '../../../public/images/logos/covr.svg'
 import complex_screens from '../../../public/images/complex_screens.gif'
 import complex_home from '../../../public/images/productshots/complexscreens/Home/Home.png'
 import complex_home_2 from '../../../public/images/productshots/complexscreens/Home/Home, Sidebar.png'
@@ -31,8 +31,7 @@ export default function covr() {
         <>
         <Breadcrumbs/>
         <div className='h-[100vh] bg-light-primary-background
-            flex flex-col
-            dark:bg-dark-primary-background'>
+            flex flex-col'>
                 <div id='top' className='flex flex-col justify-start align-start ml-6
                 iphone6:pt-1 ipadpro12:pt-3 iphone6:w-3/4 ipadpro12:w-96'>
                     <BackButton/>
@@ -40,17 +39,16 @@ export default function covr() {
                 <div className='self-center' id='complex-networks'>
                     <h1 className='text-center font-machinainkultra text-light-primary-text uppercase
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
-                    dark:text-dark-primary-text
                     '>covr</h1>
                     <Image 
-                        src={complex_gif}
+                        src={covr_gif}
                         height={600}
                         width={800}
-                        alt='gif of several screens from complex networks app. From left to right, shop view, article view, launch screen view, sign in view, home view'
+                        alt='gif of several screens from covr app.'
                         className='p-4'
                     />
                 </div>
-                <div className='bg-dark-primary-background' id='background'>
+                <div className='bg-covr-primary-blue' id='background'>
                     <h3 className='font-montrealbold text-dark-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
@@ -59,14 +57,22 @@ export default function covr() {
                     ml-6 mt-4 mr-6
                     ipad:w-2/3
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
-                    '>during my tenure at complex networks i took up the task of dusting off an initiative that the design team had shelved. the purpose of the project was to bring the complex family of brands and their content under one app for all users to enjoy.</p>
+                    '>the frustration of finding a job is hard enough. companies are competing for job postings across dozens of job boards, but it seems not one of those companies are accountable for their own hiring process leaving the applicant left in the dust.
+                    unanswered applications, automatic rejections, and interview processees that seem to go on forever.
+                    <br/>
+                    <br/>
+                    enter covr. the first job board that puts the needs of the applicant above all else.
+                    <br/>
+                    </p>
                     <div className='flex justify-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
                         <div>
                             <Image
-                                src={complex_logos}
+                                src={covr_logo}
+                                height={256}
+                                width={256}
                                 alt='row of all brand logos that complex owns, from left to right: sole collector, first we feast, pigeons and planes, and complex con'
                             />
                         </div>
