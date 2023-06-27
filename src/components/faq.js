@@ -1,9 +1,10 @@
 export const FAQ = () => {
     return (
         <>
-        <div id='accordion-collapse' data-accordion='collapse' data-active-classes='bg-light-primary-bg' data-inactive-classes='bg-light-primary-bg'>
+        <div className='flex flex-col' id='accordion-collapse' data-accordion='collapse' data-active-classes='bg-light-primary-bg' data-inactive-classes='bg-light-primary-bg'>
             <button type='button' className='
                 group
+                self-start
                 font-montrealbold text-light-primary-text underline iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] dark:text-dark-primary-text
                 opacity-75
                 transition duration-300
@@ -17,6 +18,7 @@ export const FAQ = () => {
             </div>
             <button type='button' className='
                 group
+                self-start
                 font-montrealbold text-light-primary-text underline iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] dark:text-dark-primary-text
                 opacity-75
                 transition duration-300
@@ -30,6 +32,7 @@ export const FAQ = () => {
             </div>
             <button type='button' className='
                 group
+                self-start
                 font-montrealbold text-light-primary-text underline iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] dark:text-dark-primary-text
                 opacity-75
                 transition duration-300

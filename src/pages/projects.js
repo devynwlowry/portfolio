@@ -16,7 +16,7 @@ export default function projects() {
             <section className='h-screen bg-light-primary-background overflow-scroll
             flex ipad:flex-row
             dark:bg-dark-primary-background'>
-                <div id='cards' className='flex flex-col gap-y-8
+                <div id='flex-container' className='flex flex-col gap-y-8
                 iphonese:m-6 iphone6:m-6 iphoneplus:m-6
                 iphonese:mt-48 iphone6:mt-32 iphoneplus:mt-32 iphonexrmax:mt-40 ipad:mt-40 ipadpro12:mt-52'>
                     <h3 className='font-machinainkultra uppercase 
