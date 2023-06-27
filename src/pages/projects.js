@@ -12,22 +12,21 @@ export default function projects() {
     return (
         <>
            <Breadcrumbs />
-            <section className='h-screen bg-light-primary-background
-            flex flex-col
+           <BackButton/>
+            <section className='h-screen bg-light-primary-background overflow-scroll
+            flex ipad:flex-row
             dark:bg-dark-primary-background'>
-                <div className='flex flex-col justify-start align-start ml-6
-                iphone6:pt-1 ipadpro12:pt-3 iphone6:w-3/4 ipadpro12:w-96'>
-                    <BackButton/>
-                </div>
-                <div className='grid justify-center align-center gap-4
-                iphone6:pb-20 iphone6:ml-6 iphone6:w-80 iphoneplus:m-auto ipad:m-auto ipadpro12:m-auto ipadpro12:w-96 ipad:pb-48
-                ' id='projects'>
-                    <h1 className='font-machinainkultra uppercase text-light-primary-text 
-                    dark:text-dark-primary-text
-                    iphone6:text-[3vh] ipadpro12:text-[2.5vh]'>projects</h1>
-                    <Complex/>
-                    <Covr/>
-                    {/* <Themanor/> */}
+                <div id='cards' className='flex flex-col gap-y-8
+                iphonese:m-6 iphone6:m-6 iphoneplus:m-6
+                iphonese:mt-48 iphone6:mt-32 iphoneplus:mt-32 iphonexrmax:mt-40 ipad:mt-40 ipadpro12:mt-52'>
+                    <h3 className='font-machinainkultra uppercase 
+                    iphonese:text-3xl iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl'>projects</h3>
+                    <div className='flex gap-8
+                    iphone6:gap-y-4
+                    iphonese:flex-col iphone6:flex-col iphoneplus:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row ipadpro12:flex-row'>
+                        <Complex/>
+                        <Covr/>
+                    </div>
                 </div>
             </section>
             <Problem/>

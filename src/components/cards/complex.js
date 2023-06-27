@@ -15,7 +15,7 @@ export const Complex = () => {
             />
             <h4 className='font-montrealbold text-light-secondary-text dark:text-dark-secondary-text'>CONCEPT //</h4>
             <h3 className='font-machinainkultra text-light-primary-text uppercase 
-            iphone6:text-[3vh] iphoneplus:text-[3.5vh] ipad:text-[2.67vh] ipadpro12:text-[1.67vh] 
+            iphonese:text-xl iphone6:text-2xl iphoneplus:text-2xl iphonexrmax:text-2xl ipad:text-3xl ipadpro:text-2xl ipadpro12:text-3xl
             dark:text-dark-primary-text'>Complex networks</h3>
             </Link>
         </div>

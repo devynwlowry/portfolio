@@ -34,11 +34,10 @@ export default function covr() {
         <Breadcrumbs/>
         <div className='h-[100vh] bg-light-primary-background
             flex flex-col'>
-                <div id='top' className='flex flex-col justify-start align-start ml-6
-                iphone6:pt-1 ipadpro12:pt-3 iphone6:w-3/4 ipadpro12:w-96'>
+                <div id='top' className=''>
                     <BackButton/>
                 </div>
-                <div className='self-center' id='complex-networks'>
+                <div className='self-center mt-16' id='complex-networks'>
                     <h1 className='text-center font-machinainkultra text-light-primary-text uppercase
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
                     '>covr</h1>

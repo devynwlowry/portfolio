@@ -60,17 +60,18 @@ module.exports = {
         'covr-dark-secondary-text': '#B7B7B7'
       },
       screens: {
+        'iphonese': '320px',
         'iphone6': '375px',             // iPhone 6/7/8/SE (2nd generation)
         'iphoneplus': '414px',          // iPhone 6/7/8 Plus
         'iphonex': '375px',             // iPhone X/XS/11 Pro
         'iphonexr': '414px',            // iPhone XR/11
         'iphonexsmax': '414px',         // iPhone XS Max/11 Pro Max
-        'iphonexrmax': '414px',         // iPhone 12/12 Pro
+        'iphone12': '414px',         // iPhone 12/12 Pro
         'iphonexrmax': '428px',         // iPhone 12/12 Pro Max
         'ipad': '768px',                // iPad (portrait orientation)
         'ipadpro': '1024px',            // iPad (landscape orientation) and iPad Pro (9.7-inch)
-        'ipadpro11': '834px',           // iPad Pro (11-inch)
-        'ipadpro12': '1024px',
+        'ipadpro11': '1112px',           // iPad Pro (11-inch)
+        'ipadpro12': '1366px',
       },
     },
   },

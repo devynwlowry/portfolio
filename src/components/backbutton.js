@@ -11,7 +11,9 @@ export const BackButton = () => {
 
     return (
         <>
-            <Link href="" onClick={goBack} className='iphone6:pb-[45px] font-montrealbold text-light-primary-text dark:text-dark-primary-text uppercase underline'>Back</Link>
+            <Link href="" onClick={goBack} className='font-montrealbold text-light-primary-text dark:text-dark-primary-text uppercase underline
+            absolute top-4 left-6
+            '>Back</Link>
         </>
         
     )
