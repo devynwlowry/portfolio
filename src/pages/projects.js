@@ -5,7 +5,7 @@ import { Breadcrumbs } from '@/components/breadcrumbs'
 import { Problem } from '@/components/problem'
 import Link from 'next/link.js'
 import { Complex } from '@/components/cards/complex'
-// import { Covr } from '@/components/cards/covr'
+import { Covr } from '@/components/cards/covr'
 // import { Themanor } from '@/components/cards/themanor'
 
 export default function projects() {
@@ -26,8 +26,8 @@ export default function projects() {
                     dark:text-dark-primary-text
                     iphone6:text-[3vh] ipadpro12:text-[2.5vh]'>projects</h1>
                     <Complex/>
-                    {/* <Covr/>
-                    <Themanor/> */}
+                    <Covr/>
+                    {/* <Themanor/> */}
                 </div>
             </section>
             <Problem/>

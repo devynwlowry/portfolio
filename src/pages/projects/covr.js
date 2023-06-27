@@ -101,7 +101,7 @@ export default function covr() {
                         </div>
                     </div>
                 </div>
-                <div className='bg-dark-primary-background' id='background'>
+                {/* <div className='bg-dark-primary-background' id='background'>
                     <h3 className='font-montrealbold text-dark-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
@@ -385,7 +385,7 @@ export default function covr() {
                             />
                         </div>
                     </div>
-                </div>
+    </div> */}
             <ScrollUpButton/>   
         </div>
         </>

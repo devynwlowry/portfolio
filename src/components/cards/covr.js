@@ -6,7 +6,7 @@ export const Covr = () => {
     return (
         <>
         <div className='flex flex-col' id='complex'>
-            <Link href='' className="cursor-default">
+            <Link href='/projects/covr'>
                 <Image 
                     src={covr_banner}
                     height={200}
