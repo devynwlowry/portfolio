@@ -17,13 +17,17 @@ export default function services() {
             dark:bg-dark-primary-background'>
                 <div className='flex flex-col gap-y-8
                 iphonese:m-6 iphone6:m-6 iphoneplus:m-6
-                iphonese:mt-48 iphone6:mt-32 iphoneplus:mt-32 iphonexrmax:mt-40 ipad:mt-40 ipadpro12:mt-52' id='projects'>
+                iphonese:mt-12 iphone6:mt-20 iphoneplus:mt-28 iphonexrmax:mt-36 ipad:mt-40 ipadpro11:mt-40 ipadpro12:mt-52' id='projects'>
                     <h1 className='font-machinainkultra uppercase text-light-primary-text 
                     dark:text-dark-primary-text 
-                    iphonese:text-3xl iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-4xl ipadpro12:text-5xl
+                    iphonese:text-3xl iphone6:text-3xl iphoneplus:text-4xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-4xl ipadpro:text-4xl ipadpro12:text-5xl
                     '>services</h1>
-                    <p className='font-montrealmedium text-light-primary-text whitespace-wrap iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] dark:text-dark-primary-text'>i offer a wide variety of creative services. from branding to web design to ux research and accessibility audits.</p>
-                    <p className='font-montrealmedium text-light-primary-text whitespace-wrap iphone6:text-[2.5vh] ipadpro12:text-[1.5vh] dark:text-dark-primary-text'>if you need a website or just want to <a href = "mailto:devynwlowry@gmail.com" className='underline font-montrealbold'>chat</a>, shoot me an email and i’ll get in touch.</p>
+                    <p className='font-montrealmedium text-light-primary-text whitespace-wrap 
+                    iphone6:text-md iphoneplus:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro11:text-xl ipadpro12:text-2xl 
+                    dark:text-dark-primary-text'>i offer a wide variety of creative services. from branding to web design to ux research and accessibility audits.</p>
+                    <p className='font-montrealmedium text-light-primary-text whitespace-wrap
+                    iphone6:text-md iphoneplus:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro11:text-xl ipadpro12:text-2xl 
+                    dark:text-dark-primary-text'>if you need a website or just want to <a href = "mailto:devynwlowry@gmail.com" className='underline font-montrealbold'>chat</a>, shoot me an email and i’ll get in touch.</p>
                     <h3 className='font-montrealbold text-light-primary-text iphone6:text-[3vh] ipadpro12:text-[2vh] dark:text-dark-primary-text'>FAQ</h3>
                     <FAQ/>
                 </div>
