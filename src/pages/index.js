@@ -22,7 +22,7 @@ export default function Home() {
         <div className='m-auto'>
           <h1 className='font-machinainkultra uppercase text-light-primary-text
           mt-40
-          iphone6:text-[5vh] ipadpro12:text-[6vh] iphone6:mt-60 ipad:mt-40
+          iphonese:text-3xl iphone6:text-4xl iphoneplus:text-4xl ipad:text-4xl ipadpro11:text-5xl ipadpro12:text-7xl iphone6:mt-60 ipad:mt-40
           dark:text-dark-primary-text'>
             devyn lowry
           </h1>
@@ -38,7 +38,9 @@ export default function Home() {
       bg-light-primary-background
       overflow-x-hidden
       dark:bg-dark-primary-background'>
-        <div className='flex flex-col align-center justify-center h-screen'>
+        <div className='flex flex-col align-center justify-center h-screen
+        iphonese:ml-5 iphonese:mr-5 iphone6:ml-5 iphone6:mr-5 ipad:m-auto
+        '>
           <AutoScroll/>
           <PageList/>
         </div>
