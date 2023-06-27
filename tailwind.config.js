@@ -72,6 +72,7 @@ module.exports = {
         'ipadpro': '1024px',            // iPad (landscape orientation) and iPad Pro (9.7-inch)
         'ipadpro11': '1112px',           // iPad Pro (11-inch)
         'ipadpro12': '1366px',
+        '1440': '1440px',
       },
     },
   },
