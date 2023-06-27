@@ -24,7 +24,7 @@ export const Breadcrumbs = () => {
         <>
         <div className="fixed h-auto top-2 left-3 transform rotate-90 origin-left">
             <p className='font-montrealbold text-light-accent-color
-            iphone6:text-xs iphoneplus:text-xs iphonexrmax:text-sm ipad:text-md ipadpro:text-md ipadpro12:text-lg
+            iphonese:text-xs iphone6:text-xs iphoneplus:text-xs iphonexrmax:text-sm ipad:text-md ipadpro:text-md ipadpro12:text-lg
             dark:text-dark-accent-color'>VERSION 1.0 // {currentPage ? currentPage.name : ''}</p>
         </div>
         </>

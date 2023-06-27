@@ -39,7 +39,7 @@ export default function Home() {
       overflow-x-hidden
       dark:bg-dark-primary-background'>
         <div className='flex flex-col align-center justify-center h-screen
-        iphonese:ml-5 iphonese:mr-5 iphone6:ml-5 iphone6:mr-5 ipad:m-auto
+        iphonese:mt-6 iphonese:ml-5 iphonese:mr-5 iphone6:mt-auto iphone6:ml-5 iphone6:mr-5 ipad:mt-5 ipadpro12:mt-5
         '>
           <AutoScroll/>
           <PageList/>
