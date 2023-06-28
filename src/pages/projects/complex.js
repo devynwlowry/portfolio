@@ -4,22 +4,22 @@ import complex_gif from '../../../public/images/complex_gif.gif'
 import sketch_gif from '../../../public/images/sketch.gif'
 import complex_logos from '../../../public/images/complex_logos.png'
 import complex_screens from '../../../public/images/complex_screens.gif'
-import complex_home from '../../../public/images/productshots/complexscreens/Home/Home.png'
-import complex_home_2 from '../../../public/images/productshots/complexscreens/Home/Home, Sidebar.png'
-import complex_reading from '../../../public/images/productshots/complexscreens/Home/Reading.png'
-import complex_reading_2 from '../../../public/images/productshots/complexscreens/Home/Reading cont.png'
-import complex_all_shows from '../../../public/images/productshots/complexscreens/AllShows/All Shows.png'
-import complex_all_shows_2 from '../../../public/images/productshots/complexscreens/AllShows/All Shows cont.png'
-import complex_show_details from '../../../public/images/productshots/complexscreens/AllShows/Show Details.png'
-import complex_episode from '../../../public/images/productshots/complexscreens/AllShows/Episode View.png'
-import complex_episode_2 from '../../../public/images/productshots/complexscreens/AllShows/Episode View Cont.png'
-import complex_shop from '../../../public/images/productshots/complexscreens/shop/shop.png'
-import complex_shop_2 from '../../../public/images/productshots/complexscreens/shop/SHOPCONT.png'
-import complex_item from '../../../public/images/productshots/complexscreens/shop/ITEM.png'
-import complex_item_2 from '../../../public/images/productshots/complexscreens/shop/ITEMCont.png'
-import complex_item_3 from '../../../public/images/productshots/complexscreens/shop/Itemincart.png'
-import complex_fwf from '../../../public/images/productshots/complexscreens/FirstWeFeast/First We Feast.png'
-import complex_fwf_2 from '../../../public/images/productshots/complexscreens/FirstWeFeast/First We Feast Cont.png'
+import complex_home from '../../../public/images/productshots/complexscreens/home.png'
+import complex_home_2 from '../../../public/images/productshots/complexscreens/navigation.png'
+import complex_reading from '../../../public/images/productshots/complexscreens/article-reading.png'
+import complex_reading_2 from '../../../public/images/productshots/complexscreens/article-reading-2.png'
+import complex_all_shows from '../../../public/images/productshots/complexscreens/all-shows.png'
+import complex_all_shows_2 from '../../../public/images/productshots/complexscreens/all-shows-2.png'
+import complex_show_details from '../../../public/images/productshots/complexscreens/show-details.png'
+import complex_episode from '../../../public/images/productshots/complexscreens/episode-view.png'
+import complex_episode_2 from '../../../public/images/productshots/complexscreens/episode-view-2.png'
+import complex_shop from '../../../public/images/productshots/complexscreens/shop.png'
+import complex_shop_2 from '../../../public/images/productshots/complexscreens/shop-2.png'
+import complex_item from '../../../public/images/productshots/complexscreens/item-view.png'
+import complex_item_2 from '../../../public/images/productshots/complexscreens/item-view-2.png'
+import complex_item_3 from '../../../public/images/productshots/complexscreens/cart-items-in-cart.png'
+import complex_fwf from '../../../public/images/productshots/complexscreens/first-we-feast-1.png'
+import complex_fwf_2 from '../../../public/images/productshots/complexscreens/first-we-feast-channel-1.png'
 
 import Image from "next/image";
 import { BackButton } from "@/components/backbutton";
@@ -180,35 +180,6 @@ export default function complex() {
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
                     ipad:w-2/3
                     '>it was really important that the content be the most important part of the app. thats why on every channel beginning with the home channel you are greeted with featured and popular content. </p>
-                    <div className='flex place-content-around
-                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
-                    iphone6:p-10 iphone6:gap-8
-                    '>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_home}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_home_2}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_reading}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_reading_2}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                    </div>
                     <h3 className='font-montrealbold text-dark-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
@@ -218,10 +189,16 @@ export default function complex() {
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
                     ipad:w-2/3
                     '>for navigation i felt that a sidebar would be the best way for the user to navigate. its tucked away until you need it which means that there is not the clutter that you might sometimes find with a tab bar.</p>
-                    <div className='flex place-content-around
+                    <div className='flex place-content-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={complex_home}
+                                alt='various screens of the complex mobile app'
+                            />
+                        </div>
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_home_2}
@@ -241,7 +218,7 @@ export default function complex() {
                     <br/>
                     <br/>
                     the choice to not have ads in the middle of the content makes it easier for the user to read and absorb the content without forcing them to break their focus.</p>
-                    <div className='flex place-content-around
+                    <div className='flex place-content-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
@@ -270,7 +247,7 @@ export default function complex() {
                     <br/>
                     <br/>
                     once they find a show they want to watch they simply select it and then are brought to a list of episodes to choose from.</p>
-                    <div className='flex place-content-around
+                    <div className='flex place-content-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
@@ -314,7 +291,7 @@ export default function complex() {
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
                     ipad:w-2/3
                     '>complex has amazing merch either designed in house or in collaboration with well known artists, the shop view was designed to put those pieces right in front of the users separated by brand. </p>
-                    <div className='flex place-content-around
+                    <div className='flex place-content-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
@@ -362,7 +339,7 @@ export default function complex() {
                     <br/>
                     <br/>
                     in order to make the app feel more customizable, a user would be able to select a channel to be the default home view so the content they care about is easy to access. every time.</p>
-                    <div className='flex place-content-around
+                    <div className='flex place-content-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
