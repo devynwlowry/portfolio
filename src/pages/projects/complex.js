@@ -198,12 +198,16 @@ export default function complex() {
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_home}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
-                            />
+                        />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_home_2}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
@@ -227,12 +231,16 @@ export default function complex() {
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_reading}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_reading_2}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
@@ -256,30 +264,40 @@ export default function complex() {
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_all_shows}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_all_shows_2}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_show_details}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_episode}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_episode_2}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
@@ -300,30 +318,40 @@ export default function complex() {
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_shop}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_shop_2}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_item}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_item_2}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_item_3}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
@@ -348,12 +376,16 @@ export default function complex() {
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_fwf}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
                                 src={complex_fwf_2}
+                                width={220}
+                                height={428.6591}
                                 alt='various screens of the complex mobile app'
                             />
                         </div>
