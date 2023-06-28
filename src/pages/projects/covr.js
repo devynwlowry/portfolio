@@ -18,6 +18,7 @@ export default function covr() {
         
         <BackButton/>
         <div className='h-[100vh] bg-light-primary-background
+        dark:bg-dark-primary-background
             flex flex-col'>
                 <div id='top'>
                     <Breadcrumbs/>
@@ -25,6 +26,7 @@ export default function covr() {
                 <div className='self-center mt-16' id='complex-networks'>
                     <h1 className='text-center font-machinainkultra text-light-primary-text uppercase
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
+                    dark:text-dark-primary-text
                     '>covr</h1>
                     <Image 
                         src={covr_gif}
