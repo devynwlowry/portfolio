@@ -66,7 +66,7 @@ export default function covr() {
                         </div>
                     </div>
                 </div>
-                <div className='bg-light-primary-background' id='tools-used'>
+                <div className='bg-light-primary-background dark:bg-dark-primary-background' id='tools-used'>
                     <h3 className='font-montrealbold text-light-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
@@ -117,7 +117,7 @@ export default function covr() {
                         </div>
                     </div>
                 </div>
-                 <div className='bg-light-primary-background' id='tools-used'>
+                 <div className='bg-light-primary-background dark:bg-dark-primary-background' id='tools-used'>
                     <h3 className='font-montrealbold text-light-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
