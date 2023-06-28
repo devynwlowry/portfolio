@@ -367,7 +367,7 @@ export default function complex() {
                     <p className='font-montrealmedium text-light-primary-text
                     ml-6 mt-4 mr-6
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
-                    '>all in all designing an app for complex was an excellent exercise. this project turned out to be one im most proud of. i was given the opportunity to work across all of the different brands i love and add fresh perspective to an otherwise dead product.
+                    '>all in all designing an app for complex was an excellent exercise. this project turned out to be one im most proud of. i was given the opportunity to work across all of the different brands i love and add fresh perspective to an old project.
                     <br/>while this app did not launch (and may never) i learned a great deal working through this.
                     <br/>
                     <br/>
