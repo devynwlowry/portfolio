@@ -1,3 +1,4 @@
+import devynlowry from '../../../public/images/logos/devynlowry.svg'
 import complex_font_light from '../../../public/images/complex_font_light.svg'
 import complex_font_dark from '../../../public/images/complex_font_dark.svg'
 import complex_gif from '../../../public/images/complex_gif.gif'
@@ -22,6 +23,7 @@ import complex_fwf from '../../../public/images/productshots/complexscreens/firs
 import complex_fwf_2 from '../../../public/images/productshots/complexscreens/first-we-feast-channel-1.png'
 
 import Image from "next/image";
+import Link from 'next/link'
 import { BackButton } from "@/components/backbutton";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ScrollUpButton } from '@/components/scrollupbutton'
@@ -95,7 +97,7 @@ export default function complex() {
                         </div>
                     </div>
                 </div>
-                <div className='bg-dark-primary-background' id='background'>
+                <div className='bg-dark-primary-background' id='typography'>
                     <h3 className='font-montrealbold text-dark-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
@@ -123,7 +125,7 @@ export default function complex() {
                         </div>
                     </div>
                 </div>
-                <div className='bg-light-primary-background' id='tools-used'>
+                <div className='bg-light-primary-background' id='colors'>
                     <h3 className='font-montrealbold text-light-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
@@ -148,7 +150,7 @@ export default function complex() {
                         </div>
                     </div>
                 </div>
-                <div className='bg-dark-primary-background' id='background'>
+                <div className='bg-dark-primary-background' id='screens'>
                     <h3 className='font-montrealbold text-dark-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
@@ -353,6 +355,39 @@ export default function complex() {
                             <Image
                                 src={complex_fwf_2}
                                 alt='various screens of the complex mobile app'
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className='bg-light-primary-background' id='tools-used'>
+                    <h3 className='font-montrealbold text-light-primary-text uppercase
+                    ml-6 mt-6
+                    iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
+                    '>wrap it up</h3>
+                    <p className='font-montrealmedium text-light-primary-text
+                    ml-6 mt-4 mr-6
+                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    '>all in all designing an app for complex was an excellent exercise. this project turned out to be one im most proud of. i was given the opportunity to work across all of the different brands i love and add fresh perspective to an otherwise dead product.
+                    <br/>while this app did not launch (and may never) i learned a great deal working through this.
+                    <br/>
+                    <br/>
+                    if you want to check out more of this project or chat about it, send me an <span className='font-montrealbold underline'><Link href='mailto:devyn@devynlowry.com'>email</Link></span>.
+
+                    <br/>
+                    <br/>
+                    Catch you later,
+
+                    </p>
+                    <div className='flex justify-start align-start
+                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
+                    iphone6:p-10 iphone6:gap-8
+                    '>
+                        <div>
+                            <Image
+                                src={devynlowry}
+                                height={200}
+                                width={400}
+                                alt='sketch app icon'
                             />
                         </div>
                     </div>
