@@ -1,4 +1,4 @@
-import devynlowry from '../../../public/images/logos/devynlowry.svg'
+import devynlowry from '../../../public/images/Logos/devynlowry.svg'
 import complex_font_light from '../../../public/images/complex_font_light.svg'
 import complex_font_dark from '../../../public/images/complex_font_dark.svg'
 import complex_gif from '../../../public/images/complex_gif.gif'
