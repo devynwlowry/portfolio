@@ -12,13 +12,15 @@ import { ScrollUpButton } from '@/components/scrollupbutton'
 import Image from 'next/image'
 
 export default function covr() {
+
     return (
         <>
-        <Breadcrumbs/>
+        
+        <BackButton/>
         <div className='h-[100vh] bg-light-primary-background
             flex flex-col'>
-                <div id='top' className=''>
-                    <BackButton/>
+                <div id='top'>
+                    <Breadcrumbs/>
                 </div>
                 <div className='self-center mt-16' id='complex-networks'>
                     <h1 className='text-center font-machinainkultra text-light-primary-text uppercase

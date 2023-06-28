@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import complex_banner from '../../../public/images/complex_banner.svg'
+import complex_banner_light from '../../../public/images/complex_banner_light.svg'
 
 export const Complex = () => {
     return (
@@ -12,6 +13,14 @@ export const Complex = () => {
                 height={200}
                 width={368}
                 alt='complex app'
+                className="dark:hidden"
+            />
+            <Image 
+                src={complex_banner_light}
+                height={200}
+                width={368}
+                alt='complex app'
+                className="hidden dark:block"
             />
             <h4 className='font-montrealbold text-light-secondary-text dark:text-dark-secondary-text'>CONCEPT //</h4>
             <h3 className='font-machinainkultra text-light-primary-text uppercase 
