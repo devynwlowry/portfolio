@@ -70,10 +70,12 @@ export default function covr() {
                     <h3 className='font-montrealbold text-light-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
+                    dark:text-dark-primary-text
                     '>tools used</h3>
                     <p className='font-montrealmedium text-light-primary-text
                     ml-6 mt-4 mr-6
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    dark:text-dark-primary-text
                     '>along with all of my other projects, i designed this app in <span className='font-montrealbold'>sketch.</span></p>
                     <div className='flex justify-center align-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
@@ -121,11 +123,13 @@ export default function covr() {
                     <h3 className='font-montrealbold text-light-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
+                    dark:text-dark-primary-text
                     '>colors</h3>
                     <p className='font-montrealmedium text-light-primary-text
                     ml-6 mt-4 mr-6
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
                     ipad:w-2/3
+                    dark:text-dark-primary-text
                     '>the goal for this app is to make the job application process as straightforward as process, so the colors had to be just as straightforward. i stuck with industry colors, only tweaking them slightly.</p>
                     <div className='flex justify-center align-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
