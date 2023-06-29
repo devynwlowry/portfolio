@@ -14,6 +14,7 @@ export const Breadcrumbs = () => {
         { name: 'PROJECTS // COMPLEX', path: '/projects/complex'},
         { name: 'PROJECTS // COVR', path: '/projects/covr'},
         { name: 'PROJECTS // THEMANOR.', path: '/projects/themanor'},
+        { name: 'DESIGN IS A PROBLEM', path:'/problem'},
         // Add more pages as needed
       ];
 

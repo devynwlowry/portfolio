@@ -19,7 +19,6 @@ export default function contact() {
                         <a target="_blank" href="https://twitter.com/devynwlowry" className='font-montrealbold underline uppercase text-light-primary-text dark:text-dark-primary-text'>twitter.</a>
                         <a target="_blank" href="https://medium.com/@devynwlowry" className='font-montrealbold underline uppercase text-light-primary-text dark:text-dark-primary-text'>medium.</a>
                     </div>
-                    
                 </div>
             </section>
             <Problem/>
