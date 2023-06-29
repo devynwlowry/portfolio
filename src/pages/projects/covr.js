@@ -101,7 +101,7 @@ export default function covr() {
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
                     ipad:w-2/3
                     '>i try to limit font usage to one while utilizing different weights across the interface. covr uses <span className='font-montrealbold'>PP Neue Montreal</span> in the Medium and <span className='font-montrealbold'>Bold</span> font weights.</p>
-                    <div className='flex place-content-around
+                    <div className='flex place-content-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
