@@ -19,12 +19,17 @@ export default function Home() {
       <div className='flex flex-col align-center justify-center h-screen 
       bg-light-primary-background
       dark:bg-dark-primary-background' id='first section'>
-        <div className='m-auto'>
-          <h1 className='font-machinainkultra uppercase text-light-primary-text
+        <div className='m-auto flex flex-col ipad:pt-28'>
+          <h1 className='font-machinainkultra uppercase text-light-primary-text text-center
           mt-40
-          iphonese:text-3xl iphone6:text-4xl iphoneplus:text-4xl ipad:text-4xl ipadpro11:text-5xl ipadpro12:text-7xl iphone6:mt-60 ipad:mt-40
+          iphonese:text-3xl iphone6:text-4xl iphoneplus:text-4xl ipad:text-4xl ipadpro11:text-5xl ipadpro12:text-6xl iphone6:mt-60 ipad:m-auto
           dark:text-dark-primary-text'>
             devyn lowry
+          </h1>
+          <h1 className='font-montrealbold uppercase text-light-primary-text text-center
+          iphonese:text-lg iphone6:text-xl iphoneplus:text-2xl ipad:text-2xl ipadpro11:text-3xl ipadpro12:text-3xl ipad:m-auto
+          dark:text-dark-primary-text'>
+            product designer. creative. techie.
           </h1>
         </div>
         <div className='flex justify-center align-center mb-20
