@@ -139,14 +139,51 @@ export default function complex() {
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
+                        <h2 className='font-montrealbold text-xl'>Light Mode</h2>
                         <div className="flex flex-wrap gap-4">
-                            <h5 className="h-24 w-24 p-2 bg-[#161616] font-montrealbold text-white ">#161616</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#1E5CF1] font-montrealbold text-white ">#1E5CF1</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#FFD200] font-montrealbold text-white ">#FFD200</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#007AFF] font-montrealbold text-white ">#007AFF</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#FF0000] font-montrealbold text-white ">#FF0000</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#FFFFFF] font-montrealbold text-black ">#FFFFFF</h5>
-                            <h5 className="h-24 w-24 p-2 bg-[#000000] font-montrealbold text-white ">#000000</h5>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-white border-4 border-light-accent-color font-montrealbold text-light-primary-text ">#FFFFFF</h5>
+                                <h5 className='font-montrealmedium w-24'>primary-background</h5>
+                            </div>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-[#161616] font-montrealbold text-white ">#161616</h5>
+                                <h5 className='font-montrealmedium w-24'>primary-text</h5>
+                            </div>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-[#5A5A5A] font-montrealbold text-dark-primary-text ">#5A5A5A</h5>
+                                <h5 className='font-montrealmedium w-24'>secondary-text</h5>
+                            </div>    
+                        </div>
+                        <h2 className='font-montrealbold text-xl'>Dark Mode</h2>
+                        <div className="flex flex-wrap gap-4">
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-[#161616] font-montrealbold text-white ">#161616</h5>
+                                <h5 className='font-montrealmedium w-24'>primary-background</h5>
+                            </div>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-white border-4 border-light-accent-color font-montrealbold text-light-primary-text ">#FFFFFF</h5>
+                                <h5 className='font-montrealmedium w-24'>primary-text</h5>
+                            </div>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-[#5A5A5A] font-montrealbold text-dark-primary-text ">#5A5A5A</h5>
+                                <h5 className='font-montrealmedium w-24'>secondary-text</h5>
+                            </div>
+                        </div>
+                        <h2 className='font-montrealbold text-xl'>Brand Colors</h2>
+                        <div className="flex flex-row gap-4">
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-[#161616] font-montrealbold text-white ">#161616</h5>
+                                <h5 className='font-montrealmedium w-24'>pigeons-and-planes</h5>
+                            </div>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-[#1E5CF1] font-montrealbold text-dark-primary-text">#1E5CF1</h5>
+                                <h5 className='font-montrealmedium w-24'>sole-collector</h5>
+                            </div>
+                            <div>
+                            <h5 className="h-24 w-24 p-2 bg-[#FFD200] font-montrealbold text-light-primary-text ">#FFD200</h5>
+                                <h5 className='font-montrealmedium w-24'>first-we-feast</h5>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
