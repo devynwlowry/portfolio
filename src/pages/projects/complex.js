@@ -181,9 +181,19 @@ export default function complex() {
                             </div>
                             <div>
                             <h5 className="h-24 w-24 p-2 bg-[#FFD200] font-montrealbold text-light-primary-text ">#FFD200</h5>
-                                <h5 className='font-montrealmedium w-24'>first-we-feast</h5>
+                            <h5 className='font-montrealmedium w-24'>first-we-feast</h5>
                             </div>
-                            
+                        </div>
+                        <h2 className='font-montrealbold text-xl'>Utility Colors</h2>
+                        <div className="flex flex-row gap-4">
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-[#00A0FF] font-montrealbold text-white ">#00A0FF</h5>
+                                <h5 className='font-montrealmedium w-24'>buttons</h5>
+                            </div>
+                            <div>
+                                <h5 className="h-24 w-24 p-2 bg-[#FF0000] font-montrealbold text-dark-primary-text">#FF0000</h5>
+                                <h5 className='font-montrealmedium w-24'>notification-bell</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
