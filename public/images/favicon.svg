@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Branding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Oval" fill="#0D0D0D" cx="32" cy="32" r="32"></circle>
+            <g id="DL" transform="translate(14.105, 11.3)" fill="#E6E6E6" fill-rule="nonzero">
+                <path d="M20.312,41.38 L35.72,41.38 L35.72,35.62 L23.516,35.62 L23.516,16 L16.964,16 L16.964,38.104 C16.964,40.264 18.188,41.38 20.312,41.38 Z" id="Path"></path>
+                <path d="M0,25.38 L9.72,25.38 C16.668,25.38 23.868,23.616 23.868,12.672 C23.868,1.764 16.668,0 9.72,0 L0,0 L0,25.38 Z M6.552,19.62 L6.552,5.724 L9.72,5.724 C14.04,5.724 17.316,5.868 17.316,12.672 C17.316,19.476 14.076,19.62 9.72,19.62 L6.552,19.62 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
