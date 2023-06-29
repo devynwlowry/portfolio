@@ -176,7 +176,7 @@ export default function covr() {
                             </div>
                         </div>
                         <h2 className='font-montrealbold text-xl'>Brand Colors</h2>
-                        <div className="flex flex-col gap-4">
+                        <div className="flex flex-row gap-4">
                             <div>
                                 <h5 className="h-24 w-24 p-2 bg-covr-primary-blue font-montrealbold text-dark-primary-text ">#0080FF</h5>
                                 <h5 className='font-montrealmedium w-24'>covr-blue</h5>
