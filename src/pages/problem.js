@@ -8,9 +8,7 @@ export default function Problem() {
         <BackButton/>
         <section className="h-screen flex bg-light-primary-background dark:bg-dark-primary-background">
             <div className="justify-center align-center m-auto">
-                <h1 className="font-montrealbold uppercase
-                
-                ">
+                <h1 className="font-montrealbold uppercase">
                     This page is under construction.
                 </h1>
             </div>
