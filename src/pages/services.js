@@ -21,7 +21,7 @@ export default function services() {
                     <h1 className='font-machinainkultra uppercase text-light-primary-text 
                     dark:text-dark-primary-text 
                     iphonese:text-3xl iphone6:text-3xl iphoneplus:text-4xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-4xl ipadpro:text-4xl ipadpro12:text-5xl
-                    '>services</h1>
+                    '></h1>
                     <p className='font-montrealmedium text-light-primary-text whitespace-wrap 
                     iphone6:text-md iphoneplus:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro11:text-xl ipadpro12:text-2xl 
                     dark:text-dark-primary-text'>i offer a wide variety of creative services. from branding to web design to ux research and accessibility audits.</p>

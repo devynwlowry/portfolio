@@ -29,7 +29,7 @@ export default function Home() {
           <h1 className='font-montrealbold uppercase text-light-primary-text text-center
           iphonese:text-lg iphone6:text-xl iphoneplus:text-2xl ipad:text-2xl ipadpro11:text-3xl ipadpro12:text-3xl ipad:m-auto
           dark:text-dark-primary-text'>
-            product designer. creative visionary. techie.
+            product designer. creative. techie.
           </h1>
         </div>
         <div className='flex justify-center align-center mb-20

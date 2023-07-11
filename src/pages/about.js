@@ -22,7 +22,7 @@ export default function about() {
                 iphonese:mt-12 iphone6:mt-20 iphoneplus:mt-28 iphonexrmax:mt-36 ipad:mt-40 ipadpro:mt-32 ipadpro11:mt-36 ipadpro12:mt-44'>
                     <h1 className='font-machinainkultra uppercase text-light-primary-text 
                     dark:text-dark-primary-text
-                    iphonese:text-3xl iphone6:text-3xl iphoneplus:text-4xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-4xl ipadpro:text-4xl ipadpro12:text-5xl'>bio</h1>
+                    iphonese:text-3xl iphone6:text-3xl iphoneplus:text-4xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-4xl ipadpro:text-4xl ipadpro12:text-5xl'></h1>
                     <p className='font-montrealmedium text-light-primary-text dark:text-dark-primary-text whitespace-wrap
                     iphone6:text-sm iphoneplus:text-lg iphonexrmax:text-md ipad:text-lg ipadpro11:text-lg ipadpro12:text-xl'> hi my name is devyn lowry. i am a <span className='font-montrealbold'>product designer</span> from connecticut living in <span className='font-montrealbold'>new york city</span>.</p>
                     <Image

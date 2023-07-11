@@ -22,7 +22,7 @@ export default function projects() {
                     <h3 className='font-machinainkultra uppercase text-light-primary-text
                     iphonese:text-3xl iphone6:text-3xl iphoneplus:text-4xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-4xl ipadpro:text-4xl ipadpro12:text-5xl
                     dark:text-dark-primary-text
-                    '>projects</h3>
+                    '></h3>
                     <div className='flex gap-8
                     iphone6:gap-y-4
                     iphonese:flex-col iphone6:flex-col iphoneplus:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row ipadpro12:flex-row'>
