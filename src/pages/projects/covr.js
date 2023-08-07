@@ -1,5 +1,6 @@
 import devynlowry from '../../../public/images/Logos/devynlowry.svg'
 import covr_gif from '../../../public/images/covr_gif.gif'
+import covr_screens from '../../../public/images/covr_screens.gif'
 import sketch_gif from '../../../public/images/sketch_gif.gif'
 import covr_logo from '../../../public/images/Logos/covr.svg'
 import covr_font_dark from '../../../public/images/covr_font_dark.svg'
@@ -215,7 +216,7 @@ export default function covr() {
                     '>
                         <div>
                             <Image
-                                src={covr_gif}
+                                src={covr_screens}
                                 height={600}
                                 width={800}
                                 alt='various screens of the covr mobile app'
