@@ -1,15 +1,25 @@
-import complex_font_light from '../../../public/images/complex_font_light.svg'
-import complex_font_dark from '../../../public/images/complex_font_dark.svg'
+import devynlowry from '../../../public/images/Logos/devynlowry.svg'
 import covr_gif from '../../../public/images/covr_gif.gif'
 import sketch_gif from '../../../public/images/sketch_gif.gif'
 import covr_logo from '../../../public/images/Logos/covr.svg'
 import covr_font_dark from '../../../public/images/covr_font_dark.svg'
 import covr_font_light from '../../../public/images/covr_font_light.svg'
+import covr_onboarding_1 from '../../../public/images/productshots/covr-screens/Flats/Onboarding/Onboarding/Sign-Up: Email/01_welcome.png'
+import covr_onboarding_2 from '../../../public/images/productshots/covr-screens/Flats/Onboarding/Onboarding/Sign-Up: Email/02_introducing_covr.png'
+import covr_onboarding_3 from '../../../public/images/productshots/covr-screens/Flats/Onboarding/Onboarding/Sign-Up: Email/03_introducing_covr_2.png'
+import covr_onboarding_4 from '../../../public/images/productshots/covr-screens/Flats/Onboarding/Onboarding/Sign-Up: Email/04_account_creation.png'
+import covr_onboarding_5 from '../../../public/images/productshots/covr-screens/Flats/Onboarding/Onboarding/Sign-Up: Email/05_location.png'
+import covr_onboarding_6 from '../../../public/images/productshots/covr-screens/Flats/Onboarding/Onboarding/Sign-Up: Email/06_field.png'
+import covr_onboarding_7 from '../../../public/images/productshots/covr-screens/Flats/Onboarding/Onboarding/Sign-Up: Email/07_experience.png'
+import covr_onboarding_8 from '../../../public/images/productshots/covr-screens/Flats/Onboarding/Onboarding/Sign-Up: Email/08_add_more.png'
+import covr_onboarding_9 from '../../../public/images/productshots/covr-screens/Flats/Onboarding/Onboarding/Sign-Up: Email/09_pfp.png'
+import covr_onboarding_10 from '../../../public/images/productshots/covr-screens/Flats/Onboarding/Onboarding/Sign-Up: Email/10_congrats.png'
 
 import { BackButton } from "@/components/backbutton";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ScrollUpButton } from '@/components/scrollupbutton'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function covr() {
 
@@ -167,7 +177,7 @@ export default function covr() {
                             </div>
 
                             <div>
-                                <h5 className="h-24 w-24 p-2 bg-covr-dark-accent-color font-montrealbold text-white ">#1E90FF</h5>
+                                <h5 className="h-24 w-24 p-2 bg-covr-light-accent-color font-montrealbold text-white ">#0000FF</h5>
                                 <h5 className='font-montrealmedium w-24'>accent-color</h5>
                             </div>
                             <div>
@@ -189,7 +199,7 @@ export default function covr() {
                         </div>
                     </div>
                 </div>
-                {/* <div className='bg-dark-primary-background' id='background'>
+                <div className='bg-covr-primary-blue' id='background'>
                     <h3 className='font-montrealbold text-dark-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
@@ -198,229 +208,166 @@ export default function covr() {
                     ml-6 mt-4 mr-6
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
                     ipad:w-2/3
-                    '>designing the screens for this app was exciting. complex being one of my favorite brands i designed the app with pixel perfect percision. with inspiration gathered from popular news apps, the complex site, and by asking complex fans what they would want from a mobile app. </p>
+                    '>covr is proving to be a unique app to design. as this is a work in progress there are changes that are being made constantly.</p>
                     <div className='flex place-content-around
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
                         <div>
                             <Image
-                                src={complex_screens}
+                                src={covr_gif}
                                 height={600}
                                 width={800}
-                                alt='various screens of the complex mobile app'
+                                alt='various screens of the covr mobile app'
                             />
                         </div>
                     </div>
                     <h3 className='font-montrealbold text-dark-primary-text uppercase
                     ml-6 mt-6
                     iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
-                    '>key screens</h3>
+                    '>Onboarding</h3>
+                    <h3 className='font-montrealbold text-dark-primary-text uppercase
+                    ml-8 mt-6
+                    iphone6:text-md iphoneplus:text-lg iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-2xl ipadpro:text-2xl
+                    '>Launch Screen</h3>
                     <p className='font-montrealmedium text-dark-primary-text
-                    ml-6 mt-4 mr-6
-                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    ml-8 mt-4 mr-6
+                    iphone6:text-sm iphoneplus:text-sm iphonex:text-sm iphonexr:text-md iphonexrmax:text-md ipad:text-lg ipadpro:text-xl
                     ipad:w-2/3
-                    '>it was really important that the content be the most important part of the app. thats why on every channel beginning with the home channel you are greeted with featured and popular content. </p>
-                    <div className='flex place-content-around
+                    '>these are the views that the user will go through before inputting the information for their profile</p>
+                    <div className='flex place-content-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
                         <div className='self-center justify-self-center'>
                             <Image
-                                src={complex_home}
-                                alt='various screens of the complex mobile app'
+                                src={covr_onboarding_1}
+                                width={220}
+                                height={428.6591}
+                                alt='covr onboarding screen, before signup launch screen.'
                             />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
-                                src={complex_home_2}
-                                alt='various screens of the complex mobile app'
+                                src={covr_onboarding_2}
+                                width={220}
+                                height={428.6591}
+                                alt='covr onboarding screen, before signup launch screen.'
                             />
                         </div>
                         <div className='self-center justify-self-center'>
                             <Image
-                                src={complex_reading}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_reading_2}
-                                alt='various screens of the complex mobile app'
+                                src={covr_onboarding_3}
+                                width={220}
+                                height={428.6591}
+                                alt='covr onboarding screen, before signup launch screen.'
                             />
                         </div>
                     </div>
                     <h3 className='font-montrealbold text-dark-primary-text uppercase
-                    ml-6 mt-6
-                    iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
-                    '>navigation</h3>
+                    ml-8 mt-6
+                    iphone6:text-md iphoneplus:text-lg iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-2xl ipadpro:text-2xl
+                    '>Onboarding: email signup method</h3>
                     <p className='font-montrealmedium text-dark-primary-text
-                    ml-6 mt-4 mr-6
-                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
+                    ml-8 mt-4 mr-6
+                    iphone6:text-sm iphoneplus:text-sm iphonex:text-sm iphonexr:text-md iphonexrmax:text-md ipad:text-lg ipadpro:text-xl
                     ipad:w-2/3
-                    '>for navigation i felt that a sidebar would be the best way for the user to navigate. its tucked away until you need it which means that there is not the clutter that you might sometimes find with a tab bar.</p>
-                    <div className='flex place-content-around
+                    '>these screens are first level steps for inputting use profile information.</p>
+                    <div className='flex place-content-center
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
                         <div className='self-center justify-self-center'>
                             <Image
-                                src={complex_home_2}
-                                alt='various screens of the complex mobile app'
+                                src={covr_onboarding_4}
+                                width={220}
+                                height={428.6591}
+                                alt='covr onboarding screen, before signup launch screen.'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={covr_onboarding_5}
+                                width={220}
+                                height={428.6591}
+                                alt='covr onboarding screen, before signup launch screen.'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={covr_onboarding_6}
+                                width={220}
+                                height={428.6591}
+                                alt='covr onboarding screen, before signup launch screen.'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={covr_onboarding_7}
+                                width={220}
+                                height={428.6591}
+                                alt='covr onboarding screen, before signup launch screen.'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={covr_onboarding_8}
+                                width={220}
+                                height={428.6591}
+                                alt='covr onboarding screen, before signup launch screen.'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={covr_onboarding_9}
+                                width={220}
+                                height={428.6591}
+                                alt='covr onboarding screen, before signup launch screen.'
+                            />
+                        </div>
+                        <div className='self-center justify-self-center'>
+                            <Image
+                                src={covr_onboarding_10}
+                                width={220}
+                                height={428.6591}
+                                alt='covr onboarding screen, before signup launch screen.'
                             />
                         </div>
                     </div>
-                    <h3 className='font-montrealbold text-dark-primary-text uppercase
+                </div>
+                {/* <div className='bg-light-primary-background' id='tools-used'>
+                    <h3 className='font-montrealbold text-light-primary-text uppercase
                     ml-6 mt-6
-                    iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
-                    '>Editorial Content</h3>
-                    <p className='font-montrealmedium text-dark-primary-text
+                    iphone6:text-2xl iphoneplus:text-3xl iphonex:text-2xl iphonexr:text-3xl iphonexrmax:text-3xl ipad:text-5xl ipadpro:text-5xl
+                    '>wrap it up</h3>
+                    <p className='font-montrealmedium text-light-primary-text
                     ml-6 mt-4 mr-6
                     iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
-                    ipad:w-2/3
-                    '>article views needed to be clean, easy to read, and intuitive. all of the writers information and header image are at the top and the content is at the bottom. no breaks in the middle for ads just the article. 
+                    '>all in all designing an app for complex was an excellent exercise. this project turned out to be one im most proud of. i was given the opportunity to work across all of the different brands i love and add fresh perspective to an old project.
+                    <br/>while this app did not launch (and may never) i learned a great deal working through this.
                     <br/>
                     <br/>
-                    the choice to not have ads in the middle of the content makes it easier for the user to read and absorb the content without forcing them to break their focus.</p>
-                    <div className='flex place-content-around
+                    if you want to check out more of this project or chat about it, send me an <span className='font-montrealbold underline'><Link href='mailto:devyn@devynlowry.com'>email</Link></span>.
+
+                    <br/>
+                    <br/>
+                    Catch you later,
+
+                    </p>
+                    <div className='flex justify-start align-start
                     iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
                     iphone6:p-10 iphone6:gap-8
                     '>
-                        <div className='self-center justify-self-center'>
+                        <div>
                             <Image
-                                src={complex_reading}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_reading_2}
-                                alt='various screens of the complex mobile app'
+                                src={devynlowry}
+                                height={200}
+                                width={400}
+                                alt='devyn lowry'
                             />
                         </div>
                     </div>
-                    <h3 className='font-montrealbold text-dark-primary-text uppercase
-                    ml-6 mt-6
-                    iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
-                    '>Video Content</h3>
-                    <p className='font-montrealmedium text-dark-primary-text
-                    ml-6 mt-4 mr-6
-                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
-                    ipad:w-2/3
-                    '>finding your favorite shows from complex needed to be extremely straightforward. the all shows category layed out all of the shows that complex has for the user to choose from.
-                    <br/>
-                    <br/>
-                    once they find a show they want to watch they simply select it and then are brought to a list of episodes to choose from.</p>
-                    <div className='flex place-content-around
-                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
-                    iphone6:p-10 iphone6:gap-8
-                    '>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_all_shows}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_all_shows_2}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_show_details}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_episode}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_episode_2}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                    </div>
-                    <h3 className='font-montrealbold text-dark-primary-text uppercase
-                    ml-6 mt-6
-                    iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
-                    '>shop</h3>
-                    <p className='font-montrealmedium text-dark-primary-text
-                    ml-6 mt-4 mr-6
-                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
-                    ipad:w-2/3
-                    '>complex has amazing merch either designed in house or in collaboration with well known artists, the shop view was designed to put those pieces right in front of the users separated by brand. </p>
-                    <div className='flex place-content-around
-                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
-                    iphone6:p-10 iphone6:gap-8
-                    '>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_shop}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_shop_2}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_item}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_item_2}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_item_3}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                    </div>
-                    <h3 className='font-montrealbold text-dark-primary-text uppercase
-                    ml-6 mt-6
-                    iphone6:text-lg iphoneplus:text-xl iphonex:text-lg iphonexr:text-xl iphonexrmax:text-xl ipad:text-3xl ipadpro:text-3xl
-                    '>Channels</h3>
-                    <p className='font-montrealmedium text-dark-primary-text
-                    ml-6 mt-4 mr-6
-                    iphone6:text-md iphoneplus:text-md iphonex:text-md iphonexr:text-lg iphonexrmax:text-lg ipad:text-xl ipadpro:text-2xl
-                    ipad:w-2/3
-                    '>channels was a concept i came up with to organize the different brands into their own sections on the app. each brand getting its own channel; i did this because the idea of 
-                    channels is a familiar concept to many users who are used to having the content that they care about easily accessible. every channel has its own set of channels (similar to stories) for each of their shows to share updates or exciting things that are coming soon.
-                    <br/>
-                    <br/>
-                    in order to make the app feel more customizable, a user would be able to select a channel to be the default home view so the content they care about is easy to access. every time.</p>
-                    <div className='flex place-content-around
-                    iphone6:flex-col iphoneplus:flex-col iphonex:flex-col iphonexr:flex-col iphonexrmax:flex-col ipad:flex-row ipadpro:flex-row
-                    iphone6:p-10 iphone6:gap-8
-                    '>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_fwf}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                        <div className='self-center justify-self-center'>
-                            <Image
-                                src={complex_fwf_2}
-                                alt='various screens of the complex mobile app'
-                            />
-                        </div>
-                    </div>
-    </div> */}
+                </div> */}
             <ScrollUpButton/>   
         </div>
         </>
